@@ -1,0 +1,12 @@
+---
+title: Key Performance Indicatiors (KPIs)
+keywords: 
+last_updated: March 14, 2021
+summary: 
+sidebar: mydoc_sidebar
+permalink: kpi.html
+folder: white_paper/marketing
+---
+- at least 10k active wallets have interacted with Novellia (after 1 year)
+- at least 3 organizations developing on Novellia (after 1 year)
+- at least 50k cumulative social media subscriptions relating to Novellia (after 1 year)
