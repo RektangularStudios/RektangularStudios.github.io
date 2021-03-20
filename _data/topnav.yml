@@ -1,0 +1,14 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Novellia Platform
+      external_url: https://rektangularstudios.com/
+    - external_url: https://twitter.com/NftPool
+      icon: "fab fa-twitter"
+    - external_url: https://www.reddit.com/r/OccultaNovellia/
+      icon: "fab fa-reddit"
+    - external_url: https://discord.com/invite/AZhQyszp
+      icon: "fab fa-discord"
+

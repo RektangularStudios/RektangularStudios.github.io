@@ -1,0 +1,166 @@
+## This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    
+    - title:
+      url: /introduction.html
+      output: pdf
+      type: frontmatter
+
+    - title:
+      url: /introduction.html
+      output: pdf
+      type: frontmatter
+
+  - title: Dashboard
+    output: web, pdf
+    folderitems:
+
+    - title: Dashboard
+      url: /dashboard.html
+      output: web, pdf
+      
+    - title: Plugins
+      url: /plugins.html
+      output: web, pdf
+
+    - title: Minting NFTs
+      url: /minting_nfts.html
+      output: web, pdf
+      type: homepage
+
+  - title: DAO
+    output: web, pdf
+    folderitems:
+
+    - title: DAO
+      url: /dao.html
+      output: web, pdf
+
+    - title: Voting
+      url: /voting.html
+      output: web, pdf
+      
+    - title: Decentralized Game Operation
+      url: /decentralized_game_operation.html
+      output: web, pdf
+
+    - title: Value Proposition
+      url: /value_proposition.html
+      output: web, pdf
+    
+    - title: NFTs
+      url: /nft.html
+      output: web, pdf
+
+    - title: Novellia Token
+      url: /novellia_token.html
+      output: web, pdf
+  
+  - title: Occulta Novellia
+    output: web, pdf
+    folderitems:
+
+    - title: Occulta Novellia
+      url: /occulta_novellia.html
+      output: web, pdf
+      
+    - title: Decentralization Model
+      url: decentralized_model.html
+      output: web, pdf
+
+    - title: Asset List
+      url: /asset_list.html
+      output: web, pdf
+
+    - title: Cards
+      url: /cards.html
+      output: web, pdf
+      
+    - title: Game Design
+      url: /game_design.html
+      output: web, pdf 
+
+  - title: Story
+    output: web, pdf
+    folderitems:
+  
+    - title: Regalia Overview
+      url: /regalia_overview.html
+      output: web, pdf
+      type: homepage
+
+    - title: Ten Thousand Guns
+      url: /ten_thousand_guns.html
+      output: web, pdf
+
+    - title: Birds of Prey
+      url: /birds_of_prey.html
+      output: web, pdf
+      type: homepage
+
+    - title: Illegal Health Care
+      url: /illegal_health_care.html
+      output: web, pdf
+    
+  - title: Decentralized Exchange
+    output: web, pdf
+    folderitems:
+
+    - title: Decentralized Exchange
+      url: /decentralized_exchange.html
+      output: web, pdf
+      
+    - title: ICO
+      url: /ico.html
+      output: web, pdf
+
+  - title: Marketing
+    output: web, pdf
+    folderitems:
+
+    - title: Marketing
+      url: /marketing.html
+      output: web, pdf
+      
+    - title: Advertising
+      url: /advertising.html
+      output: web, pdf
+
+    - title: KPIs
+      url: /kpi.html
+      output: web, pdf
+      type: homepage
+
+  - title: Team
+    output: web, pdf
+    folderitems:
+
+    - title: Team
+      url: /team.html
+      output: web, pdf
+
+  - title: Conclusion
+    output: web, pdf
+    folderitems:
+
+    - title: Conclusion
+      url: /conclusion.html
+      output: web, pdf
+
+  - title: Socials
+    output: web, pdf
+    folderitems:
+
+    - title: Socials
+      url: /socials.html
+      output: web, pdf
+      
