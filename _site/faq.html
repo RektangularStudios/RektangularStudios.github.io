@@ -1,0 +1,692 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" FAQ">
+<title>FAQ | Documentation</title>
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/all.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-green.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="RektangularStudios.github.io" href="http://localhost:4000/feed.xml">
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body class="background-image">
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Rektangular Studios</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+
+
+
+                
+                
+                
+                
+                <li><a href="https://rektangularstudios.com/" target="_blank" rel="noopener">Novellia Platform</a></li>
+                
+                
+                
+                
+                
+                <li><a href="https://twitter.com/NftPool" target="_blank" rel="noopener"><p style="color:white"><i class="fab fa-twitter"></i></p></a></li>
+                
+                
+                
+                
+                
+                <li><a href="https://www.reddit.com/r/OccultaNovellia/" target="_blank" rel="noopener"><p style="color:white"><i class="fab fa-reddit"></i></p></a></li>
+                
+                
+                
+                
+                
+                <li><a href="https://discord.com/invite/AZhQyszp" target="_blank" rel="noopener"><p style="color:white"><i class="fab fa-discord"></i></p></a></li>
+                
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                <!--
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:contact@rektangularstudios.com?subject=Rektangular Studios feedback&body=I have some feedback about the FAQ page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+-->
+		
+                    <!-- toggle sidebar button -->
+                <!--<li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle"> </li>
+  
+  
+  
+      
+  
+  <li>
+      <a title="Rektangular Studios" href="#">Rektangular Studios</a>
+      <ul>
+          
+          
+          
+          <li><a title="Team" href="team.html">Team</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a title="FAQ" href="faq.html">FAQ</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Partnerships" href="partnerships_and_research.html">Partnerships</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Stake Pool Monitoring" href="system_monitoring.html">Stake Pool Monitoring</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Socials" href="socials.html">Socials</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Novellia Dashboard" href="#">Novellia Dashboard</a>
+      <ul>
+          
+          
+          
+          <li><a title="Dashboard" href="dashboard.html">Dashboard</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Plugins" href="plugins.html">Plugins</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Minting NFTs" href="minting_nfts.html">Minting NFTs</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Novellia DAO" href="#">Novellia DAO</a>
+      <ul>
+          
+          
+          
+          <li><a title="DAO" href="dao.html">DAO</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Voting" href="voting.html">Voting</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Decentralized Game Operation" href="decentralized_game_operation.html">Decentralized Game Operation</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Value Proposition" href="value_proposition.html">Value Proposition</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="NFTs" href="nft.html">NFTs</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Novellia Token" href="novellia_token.html">Novellia Token</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Novellia Decentralized Exchange" href="#">Novellia Decentralized Exchange</a>
+      <ul>
+          
+          
+          
+          <li><a title="Decentralized Exchange" href="decentralized_exchange.html">Decentralized Exchange</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="ICO" href="ico.html">ICO</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Marketing" href="#">Marketing</a>
+      <ul>
+          
+          
+          
+          <li><a title="Marketing" href="marketing.html">Marketing</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Advertising" href="advertising.html">Advertising</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="KPIs" href="kpi.html">KPIs</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Occulta Novellia" href="#">Occulta Novellia</a>
+      <ul>
+          
+          
+          
+          <li><a title="Occulta Novellia" href="occulta_novellia.html">Occulta Novellia</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Decentralization Model" href="decentralized_model.html">Decentralization Model</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Asset List" href="asset_list.html">Asset List</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Cards" href="cards.html">Cards</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Game Design" href="game_design.html">Game Design</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Occulta Novellia Stories" href="#">Occulta Novellia Stories</a>
+      <ul>
+          
+          
+          
+          <li><a title="Regalia Overview" href="regalia_overview.html">Regalia Overview</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Ten Thousand Guns" href="ten_thousand_guns.html">Ten Thousand Guns</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Birds of Prey" href="birds_of_prey.html">Birds of Prey</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Illegal Health Care" href="illegal_health_care.html">Illegal Health Care</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Ten Thousand Guns - Slide Puzzle" href="ten_thousand_guns_slide_puzzle.html">Ten Thousand Guns - Slide Puzzle</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Ten Thousand Guns - The Operators Guild" href="ten_thousand_guns_the_operators_guild.html">Ten Thousand Guns - The Operators Guild</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+         <li>
+            <!--start search-->
+            <div id="search-demo-container">
+                <input type="text" id="search-input" placeholder="">
+                <ul id="results-container"></ul>
+            </div>
+            <script src="js/jekyll-search.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                    SimpleJekyllSearch.init({
+                        searchInput: document.getElementById('search-input'),
+                        resultsContainer: document.getElementById('results-container'),
+                        dataSource: 'search.json',
+                        searchResultTemplate: '<li><a href="{url}" title="FAQ">{title}</a></li>',
+            noResultsText: '',
+                    limit: 10,
+                    fuzzy: true,
+            })
+            </script>
+            <!--end search-->
+        </li>
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+<!--comment out this block if you want to hide search-->
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class = paragraph-formating>
+                <div class="post-header">
+   <h1 class="post-title-main">FAQ</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+
+    
+
+
+    
+
+   <h2 id="am-i-locked-in-if-i-decide-to-use-novellia">Am I locked in if I decide to use Novellia?</h2>
+
+<p>No. You select what features are beneficial for your product.</p>
+
+<h2 id="is-this-a-proposal-for-a-platform-or-a-game">Is this a proposal for a platform or a game?</h2>
+
+<p>Yes.</p>
+
+<p>We are building the video game Occulta Novellia in order to help test the systems needed to build the Novellia Platform.</p>
+
+<h2 id="what-is-the-novellia-platform">What is the Novellia Platform?</h2>
+
+<p>The platform is a set of tools designed for video games to interact with the Cardano blockchain. The Novellia Dashboard acts as a decentralized game store. The tools provided allow developers to pick and choose blockchain features to use in their video game.</p>
+
+<p>These tools, while optional, provide a formally reviewed standard that ensures certain design provision are met, including that assets within Novellia are hard to devalue by design.</p>
+
+<p>Our process:</p>
+<ol>
+  <li>Plan</li>
+  <li>Review</li>
+  <li>Rework</li>
+  <li>Follow-up</li>
+  <li>Keep iterating</li>
+</ol>
+
+<p>If it isn’t finished, it isn’t shipped.</p>
+
+<h2 id="what-is-occulta-novellia">What is Occulta Novellia?</h2>
+
+<p>It’s a surreal horror turn-based strategy monster fighting game. You will be able to fight through single player story lines, giving you a better understanding of the multiverse, or fight in decentralized peer-to-peer battles, with rewards going to the victor.</p>
+
+<h2 id="i-dont-get-it-why-do-we-need-the-occulta-novellia-video-game">I don’t get it? Why do we need the Occulta Novellia video game?</h2>
+
+<p>Because designing a platform is hard.</p>
+
+<p>It’s more difficult when there’s nothing to test against. We could wait until it’s finished, but then it’d be too late. Occulta Novellia efficiently forces us to ensure the platform conforms to real-life scenarios, not an ideal.</p>
+
+<h2 id="what-is-novellia-if-its-not-just-a-dashboard">What is Novellia if it’s not just a dashboard?</h2>
+
+<p>The Novellia platform exposes a decentralized autonomous organization (DAO) where holders of the Novellia (NVLA) token vote to determine what’s allowed into the Novellia Dashboard.</p>
+
+<p>The dashboard is just a UI that surfaces everything that’s been registered on the DAO, allowing it to be interacted with all in one place.</p>
+
+<h2 id="how-do-i-get-my-game-on-novellia">How do I get my game on Novellia?</h2>
+
+<p>Registration on the DAO involves:</p>
+<ol>
+  <li>Filling out a middleware that is proposed to the DAO.</li>
+  <li>If the proposal passes, the middleware is registered.</li>
+  <li>This is the developer’s “personal space” on the DAO.
+    <ul>
+      <li>They are free to modify the data within some reasonable restrictions.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>That’s it.</p>
+
+<h2 id="so-im-going-to-make-0-off-my-game-because-people-will-buy-used-only">So I’m going to make $0 off my game because people will buy used only?</h2>
+
+<p>If you want to.</p>
+
+<p>Otherwise, you could create multiple game license kinds. Perhaps there’s a 10% chance that a buyer will get a special game license unlocking an extra skin, level, or something else.</p>
+
+<h2 id="how-do-i-make-blockchain-assets-for-my-game">How do I make blockchain assets for my game?</h2>
+
+<p>We provide minter standards for:</p>
+<ul>
+  <li>Native Tokens</li>
+  <li>NFTs</li>
+  <li>Semi-fungible Tokens</li>
+</ul>
+
+<p>These can be modified at will. The value is in the design behind the standard. When your team is ready to mint assets, they don’t need to do any research.</p>
+
+<p>By following our standard, assets can be included in the Novellia Marketplace, provided in the Novellia Dashboard. This happens automatically.</p>
+
+<h2 id="how-do-i-see-my-blockchain-assets">How do I see my blockchain assets?</h2>
+
+<p>The Novellia Dashboard exposes a read-only wallet interface which allows highly unique tokens such as NFTs to be displayed without a loss of information.</p>
+
+<p>For NFTs like trading cards, information such as artwork, skills, gameplay, won’t appear in any typical wallet. Our interface is extensible with plugins so anyone can get a first-class view of their holdings.</p>
+
+<h2 id="can-i-trade-within-the-novellia-platform">Can I trade within the Novellia platform?</h2>
+
+<p>Yes.</p>
+
+<p>The Novellia Dashboard contains a decentralized marketplace that allows users to purchase new assets from conformant minting contracts, or trade those same assets on a resale market.</p>
+
+<h2 id="is-this-totally-decentralized-and-non-custodial">Is this totally decentralized and non-custodial?</h2>
+
+<p>Yes.</p>
+
+<p>All data required for the dashboard’s functioning is enumerated from the Cardano blockchain.</p>
+
+<p>We are non-custodial. Connect your wallet using a plugin similar to MetaMask.</p>
+
+<p>Hardware Wallet / Software Wallet → Integration Layer → Accessed safely by game</p>
+
+<h2 id="why-do-we-need-a-dao-why-do-projects-need-to-voted-on">Why do we need a DAO? Why do projects need to voted on?</h2>
+
+<p>The DAO helps filter out low quality content (buggy, inappropriate, scams) without requiring a centralized authority. This means that content cannot be censored.</p>
+
+<h2 id="what-game-engines-are-supported">What game engines are supported?</h2>
+
+<p>We’ll begin by implementing an engine agnostic set of tools, followed by specific integrations for whatever is most in demand.</p>
+
+<h2 id="why-do-i-want-my-game-to-be-on-novellia">Why do I want my game to be on Novellia?</h2>
+
+<p>We provide a low-fee ecosystem to help you hit the ground running.</p>
+
+<ul>
+  <li>Marketplace
+    <ul>
+      <li>Very low fees. Avoid those +20% app store fees!</li>
+      <li>Earn commissions on resale markets for blockchain assets.</li>
+    </ul>
+  </li>
+  <li>Open source software (for critical plugins. the dashboard will begin as closed-source)
+    <ul>
+      <li>Fix it yourself if you need it now.</li>
+      <li>Read the code and you can know there’s no backdoors.</li>
+    </ul>
+  </li>
+  <li>Decentralization
+    <ul>
+      <li>Your game can’t be censored for being too scary or for arbitrary political reasons.</li>
+    </ul>
+  </li>
+  <li>Identity
+    <ul>
+      <li>Users know they aren’t buying copy-cat blockchain assets because they’re purchasable directly within Novellia.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="are-we-a-scam">Are we a scam?</h2>
+
+<p>No. This is a scam <a href="https://uetoken.com/">Useless Ethereum Token</a>.</p>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2021 Rektangular Studios. All rights reserved. <br />
+<span>Page last updated:</span> March 15, 2021<br/>
+<p><img src="/assets/images/company_logo.png" loading="lazy" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+            </div>    
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+</body>
+
+
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-66296557-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+</html>
