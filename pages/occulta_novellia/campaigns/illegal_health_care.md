@@ -5,7 +5,7 @@ last_updated: March 14, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: illegal_health_care.html
-folder: occulta_novellia/stories
+folder: occulta_novellia/campaigns
 ---
 
 A tale of two Phanamite engineers, both introduced to the wonders of automatons. Unknown to their superiors, these two have been abusing the university's equipment to create experimental body modifications. 
