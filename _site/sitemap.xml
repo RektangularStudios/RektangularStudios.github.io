@@ -232,6 +232,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/organization_token.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/partnerships_and_research.html</loc>
   </url>
   
