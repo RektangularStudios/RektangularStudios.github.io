@@ -1,4 +1,4 @@
-## This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
 - title: sidebar
@@ -11,16 +11,35 @@ entries:
     folderitems:
     
     - title:
-      url: /introduction.html
+      url: /welcome.html
       output: pdf
       type: frontmatter
 
-    - title:
-      url: /introduction.html
-      output: pdf
-      type: frontmatter
+  - title: Rektangular Studios
+    output: web, pdf
+    folderitems:
 
-  - title: Dashboard
+    - title: Team
+      url: /team.html
+      output: web, pdf
+
+    - title: FAQ
+      url: /faq.html
+      output: web, pdf
+      
+    - title: Partnerships
+      url: /partnerships_and_research.html
+      output: web, pdf
+
+    - title: Stake Pool Monitoring
+      url: /system_monitoring.html
+      output: web, pdf
+    
+    - title: Socials
+      url: /socials.html
+      output: web, pdf
+
+  - title: Novellia Dashboard
     output: web, pdf
     folderitems:
 
@@ -37,7 +56,7 @@ entries:
       output: web, pdf
       type: homepage
 
-  - title: DAO
+  - title: Novellia DAO
     output: web, pdf
     folderitems:
 
@@ -65,53 +84,7 @@ entries:
       url: /novellia_token.html
       output: web, pdf
   
-  - title: Occulta Novellia
-    output: web, pdf
-    folderitems:
-
-    - title: Occulta Novellia
-      url: /occulta_novellia.html
-      output: web, pdf
-      
-    - title: Decentralization Model
-      url: decentralized_model.html
-      output: web, pdf
-
-    - title: Asset List
-      url: /asset_list.html
-      output: web, pdf
-
-    - title: Cards
-      url: /cards.html
-      output: web, pdf
-      
-    - title: Game Design
-      url: /game_design.html
-      output: web, pdf 
-
-  - title: Story
-    output: web, pdf
-    folderitems:
-  
-    - title: Regalia Overview
-      url: /regalia_overview.html
-      output: web, pdf
-      type: homepage
-
-    - title: Ten Thousand Guns
-      url: /ten_thousand_guns.html
-      output: web, pdf
-
-    - title: Birds of Prey
-      url: /birds_of_prey.html
-      output: web, pdf
-      type: homepage
-
-    - title: Illegal Health Care
-      url: /illegal_health_care.html
-      output: web, pdf
-    
-  - title: Decentralized Exchange
+  - title: Novellia Decentralized Exchange
     output: web, pdf
     folderitems:
 
@@ -140,27 +113,134 @@ entries:
       output: web, pdf
       type: homepage
 
-  - title: Team
-    output: web, pdf
-    folderitems:
-
-    - title: Team
-      url: /team.html
+    - title: Budget
+      url: /budget.html
       output: web, pdf
+      type: homepage
 
-  - title: Conclusion
+  - title: Occulta Novellia
     output: web, pdf
     folderitems:
 
-    - title: Conclusion
-      url: /conclusion.html
-      output: web, pdf
-
-  - title: Socials
-    output: web, pdf
-    folderitems:
-
-    - title: Socials
-      url: /socials.html
+    - title: Occulta Novellia
+      url: /occulta_novellia.html
       output: web, pdf
       
+    - title: Decentralization Model
+      url: decentralized_model.html
+      output: web, pdf
+
+    - title: Asset List
+      url: /asset_list.html
+      output: web, pdf
+
+    - title: Cards
+      url: /cards.html
+      output: web, pdf
+      
+    - title: Game Design
+      url: /game_design.html
+      output: web, pdf 
+
+#  - title: Occulta Novellia Characters
+#    output: web, pdf
+#    folderitems:
+#
+#    - title: Draculi
+#      url: draculi.html
+#      output: web, pdf
+#
+#    - title: Alpha Draculi
+#      url: alpha_draculi.html
+#      output: web, pdf
+#      
+#    - title: Iscara
+#      url: iscara.html
+#      output: web, pdf
+#
+#    - title: Laurence
+#      url: laurence.html
+#      output: web, pdf
+
+#  - title: Occulta Novellia Factions
+#    output: web, pdf
+#    folderitems:
+#
+#    - title: Grevania
+#      url: /grevania.html
+#      output: web, pdf
+#
+#    - title: Operator Guild
+#      url: /operator_guild.html
+#      output: web, pdf
+#      
+#    - title: Phanamis
+#      url: /phanamis.html
+#      output: web, pdf
+#
+#    - title: The Formless
+#      url: /the_formless.html
+#      output: web, pdf
+    
+#  - title: Occulta Novellia Places
+#    output: web, pdf
+#    folderitems:
+#
+#    - title: Aphantasia
+#      url: /aphantasia.html
+#      output: web, pdf
+#
+#    - title: Atrium of Forms
+#      url: /atrium_of_forms.html
+#      output: web, pdf
+#      
+#    - title: Garden of Residues
+#      url: /garden_of_residues.html
+#      output: web, pdf
+#
+#    - title: Isles of Ixis
+#      url: /isles_of_ixis.html
+#      output: web, pdf
+#    
+#    - title: Operator Fortress
+#      url: /operator_fortress.html
+#      output: web, pdf
+#
+#    - title: Regalia
+#      url: /regalia.html
+#      output: web, pdf
+#    
+#    - title: Sojourney
+#      url: /sojourney.html
+#      output: web, pdf
+
+
+  - title: Occulta Novellia Stories
+    output: web, pdf
+    folderitems:
+
+    - title: Regalia Overview
+      url: /regalia_overview.html
+      output: web, pdf
+      type: homepage
+
+    - title: Ten Thousand Guns
+      url: /ten_thousand_guns.html
+      output: web, pdf
+
+    - title: Birds of Prey
+      url: /birds_of_prey.html
+      output: web, pdf
+      type: homepage
+
+    - title: Illegal Health Care
+      url: /illegal_health_care.html
+      output: web, pdf
+
+    - title: Ten Thousand Guns - Slide Puzzle
+      url: ten_thousand_guns_slide_puzzle.html
+      output: web, pdf
+      
+    - title: Ten Thousand Guns - The Operators Guild
+      url: ten_thousand_guns_the_operators_guild.html
+      output: web, pdf

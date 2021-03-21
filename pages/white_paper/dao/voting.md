@@ -7,6 +7,10 @@ sidebar: mydoc_sidebar
 permalink: voting.html
 folder: white_paper/dao
 ---
+
+![Voting](/assets/infogrpahics/Novellia_Voting_Infographics.jpg"){:loading="lazy"}
+
+
 Token holders are able to vote for DAO actions that affect a multiverse they have played before, as documented by NFTs held in their wallet.
 
 These actions include adding new games and dApps to specific multiverses which are then surfaced in the Dashboard desktop application. There are actions to add and remove the multiverses themselves.

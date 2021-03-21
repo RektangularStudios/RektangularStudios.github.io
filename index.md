@@ -22,3 +22,5 @@ We'll be updating our website as well, but a Wiki is the preferred format for a 
 Rektangular Studios' initial design work began as a white paper compiled from LaTeX. We quickly realized that it was becoming too big to be maintainable, so we migrated it to a Wiki format. It's much more manageable to read in this format.
 
 While it will no longer be maintained, you can still [access the latest version of the white paper here.](https://rektangularstudios.com/whitepaper)
+
+The content of this website may be considered offensive to some people. Reader discretion is advised.

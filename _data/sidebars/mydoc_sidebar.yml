@@ -83,6 +83,10 @@ entries:
     - title: Novellia Token
       url: /novellia_token.html
       output: web, pdf
+    
+    - title: Organization Token
+      url: /organization_token.html
+      output: web, pdf
   
   - title: Novellia Decentralized Exchange
     output: web, pdf
@@ -110,6 +114,11 @@ entries:
 
     - title: KPIs
       url: /kpi.html
+      output: web, pdf
+      type: homepage
+
+    - title: Budget
+      url: /budget.html
       output: web, pdf
       type: homepage
 
