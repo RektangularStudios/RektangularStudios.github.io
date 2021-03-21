@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: draculi.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/creatures/garden_of_residues
 ---
 
 ![Draculi](/images/illustrations/draculi_1080.jpg){:loading="lazy"}

@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: arinspore.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/creatures/garden_of_residues
 ---
 
 They should never have been allowed to continue their existence, but their quick reproduction has staved all attempts at eradication. These massive spiders feast on all things, small and large. Lacking the ability to feel full, they are permanently on edge, constantly in wait for their next meal.
