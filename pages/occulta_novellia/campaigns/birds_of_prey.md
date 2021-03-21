@@ -5,7 +5,7 @@ last_updated: March 14, 2021
 summary:
 sidebar: mydoc_sidebar
 permalink: birds_of_prey.html
-folder: occulta_novellia/stories
+folder: pages
 ---
 
 The stars are impossibly bright, a blend between the lake at the bottom of the hill, and a perspective beyond an open airlock. It's the hazy version of something so much brighter, and totally unbreathable.
