@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: regalia.html
-folder: occulta_novellia
+folder: occulta_novellia/places
 ---
 
 ![Map of Regalia](/images/regalia_map.png "Map of Regalia"){:loading="lazy"}
