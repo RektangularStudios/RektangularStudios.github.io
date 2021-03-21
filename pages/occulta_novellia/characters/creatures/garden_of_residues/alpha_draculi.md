@@ -8,7 +8,7 @@ permalink: alpha_draculi.html
 folder: occulta_novellia/characters/creatures/garden_of_residues
 ---
 
-![Alpha Draculi](/images/illustrations/alpha_draculi_1080.png){:loading="lazy"}
+![Alpha Draculi](/assets/images/illustrations/alpha_draculi_1080.png){:loading="lazy"}
 
 ## Cards
 
