@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: thomas_the_lich.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/people/operators_guild
 ---
 
 Thomas is Iscara's best friend. Iscara sacrificed everything to resurrect him at the Atrium of Forms, submitting to *Ten Thousand Guns* to heal him. It is likely that her family was dealt with in response to her actions.

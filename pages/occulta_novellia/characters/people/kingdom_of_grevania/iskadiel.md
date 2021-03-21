@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: iskadiel.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/people/kingdom_of_grevania
 ---
 
 Forged by a grueling training period in the Isles of Ixis, Iskadiel rose to the rank of crown operator. The instances of people meeting her are contradictory, as if she can be at multiple times and places at once, weaving her way through the Isles, breaking any semblance of a single, contiguous timeline.

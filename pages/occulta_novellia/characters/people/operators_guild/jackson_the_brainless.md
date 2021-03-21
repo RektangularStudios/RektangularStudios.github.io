@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: thomas_the_brainless.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/people/operators_guild
 ---
 
 Childhood friend of Iscara and Thomas. Thomas was always Iscara's favorite, which made Jackson jealous, although happy for him.

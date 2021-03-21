@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: raptor.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/people/kingdom_of_grevania
 ---
 
 Raptor thought the Grevan artillery moved too slowly, so raptor stole a cannon off of one so he wouldn't have to wait around for it. Basically the same thing, right?

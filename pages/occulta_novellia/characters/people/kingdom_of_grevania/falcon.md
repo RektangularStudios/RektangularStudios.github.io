@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: falcon.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/people/kingdom_of_grevania
 ---
 
 **[picture of falcon with a scope 2/3 through his skull, blood everywhere]**

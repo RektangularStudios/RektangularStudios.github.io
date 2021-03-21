@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: laurence.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/people/kingdom_of_phanamis
 ---
 
 ![Laurence the Duelist](/images/illustrations/laurence_the_duelist_1080.png){:loading="lazy"}

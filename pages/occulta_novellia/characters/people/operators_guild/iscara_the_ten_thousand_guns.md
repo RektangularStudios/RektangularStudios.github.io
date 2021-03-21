@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: iscara.html
-folder: occulta_novellia
+folder: occulta_novellia/characters/people/operators_guild
 ---
 
 ![Iscara the Ten Thousand Guns](/images/illustrations/iscara_the_ten_thousand_guns_1080.png){:loading="lazy"}
