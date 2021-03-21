@@ -50,6 +50,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/budget.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/cards.html</loc>
   </url>
   

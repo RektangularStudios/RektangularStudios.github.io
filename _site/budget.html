@@ -6,8 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content=" DAO">
-<title>Value Proposition | Documentation</title>
+<meta name="keywords" content=" ">
+<title>Spending | Documentation</title>
 <link rel="stylesheet" href="css/syntax.css">
 <link rel="stylesheet" href="css/all.css">
 <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
@@ -149,7 +149,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:contact@rektangularstudios.com?subject=Rektangular Studios feedback&body=I have some feedback about the Value Proposition page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:contact@rektangularstudios.com?subject=Rektangular Studios feedback&body=I have some feedback about the Spending page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 -->
@@ -282,7 +282,7 @@
           
           
           
-          <li class="active"><a title="Value Proposition" href="value_proposition.html">Value Proposition</a></li>
+          <li><a title="Value Proposition" href="value_proposition.html">Value Proposition</a></li>
           
           
           
@@ -356,7 +356,7 @@
           
           
           
-          <li><a title="Budget" href="budget.html">Budget</a></li>
+          <li class="active"><a title="Budget" href="budget.html">Budget</a></li>
           
           
           
@@ -478,7 +478,7 @@
                         searchInput: document.getElementById('search-input'),
                         resultsContainer: document.getElementById('results-container'),
                         dataSource: 'search.json',
-                        searchResultTemplate: '<li><a href="{url}" title="Value Proposition">{title}</a></li>',
+                        searchResultTemplate: '<li><a href="{url}" title="Spending">{title}</a></li>',
             noResultsText: '',
                     limit: 10,
                     fuzzy: true,
@@ -501,7 +501,7 @@
         <div class="col-md-9" id="tg-sb-content">
             <div class = paragraph-formating>
                 <div class="post-header">
-   <h1 class="post-title-main">Value Proposition</h1>
+   <h1 class="post-title-main">Spending</h1>
 </div>
 
 
@@ -511,72 +511,44 @@
    
 
     
-    
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
-
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
-
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
-
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
-  
-});
-</script>
-
-<div id="toc"></div>
-
-    
 
 
     
 
-   <p><strong>The value proposition must identify elements for each of these categories</strong></p>
-<ul>
-  <li>Economics</li>
-  <li>Moderation</li>
-  <li>Censorship Resistance</li>
-</ul>
+   <p>We plan to use the Cardano Funding in the following catagories:</p>
 
-<p><strong>DAO</strong></p>
-<ul>
-  <li>As more developers create content, Novellia (NVLA) has increased demand, while the token has a finite supply.</li>
-  <li>Quorum means that a vast majority must actively be in favor of a registration. This puts responsibility of extensive marketing on the proposal maker. Quorum is invariant to the user count for a specific multiverse, so those with low user count cannot easily vote-in low quality content.</li>
-  <li>Registrations may be reverted with a reduced quorum over a probationary period. This is if unexpected behavior results from the vote, but there is less motivation to vote for a reversion than a highly marketed registration proposal. For example, game breaking changes, or inappropriate content.</li>
-  <li>DAO is completely decentralized, by definition.</li>
-</ul>
+<p><img src="/assets/images/budget.png" alt="Budget" loading="lazy" /></p>
 
-<p><strong>NFTs</strong></p>
 <ul>
-  <li>Denominated in Novellia (NVLA) with finite supply, and minter contracts are deployed with immutable costs at launch time, causing an increase in fiat value as the Novellia ecosystem expands.</li>
-  <li>Same quorum requirements as multiverse approvals.</li>
-  <li>NFT ownership is non-custodial, by definition. There are no backdoors.</li>
+  <li>2D Artwork: $12000
+    <ul>
+      <li>Sprites</li>
+      <li>Illustrations</li>
+      <li>UI Assets</li>
+    </ul>
+  </li>
+  <li>3D Artwork : $6000
+    <ul>
+      <li>Models</li>
+      <li>Meshes</li>
+      <li>Rigging</li>
+      <li>Textures</li>
+      <li>Animations</li>
+    </ul>
+  </li>
+  <li>Audio : $5000
+    <ul>
+      <li>Effects</li>
+      <li>Soundtracks</li>
+    </ul>
+  </li>
+  <li>UI / UX Design : $7500</li>
+  <li>Marketing : $5000</li>
+  <li>Legal Fees : $3000</li>
+  <li>Technology Stack : $4000</li>
+  <li>Infrastructure : $4500</li>
+  <li>Taxes : $9000</li>
 </ul>
-
-<p><strong>Decentralized Gameplay</strong></p>
-<ul>
-  <li>Gameplay may include <em>unregulated mechanics</em>.</li>
-  <li>NFTs retain value despite centralized servers becoming defunct.</li>
-  <li>Gameplay related to <em>unregulated mechanics</em> is highly verifiable.</li>
-</ul>
-
-<p><strong>Novellia (NVLA) Governance Token</strong></p>
-<ul>
-  <li>Finite supply means the token is deflationary.</li>
-  <li>Use of token for purchasing assets forces the voting power to change hands.</li>
-  <li>Staking encourages holding the token for APY rewards.</li>
-  <li>Decentralized token distribution leads to better DAO governance.</li>
-  <li>Using our own token for the platform means that asset prices are less likely to dissociate from the platform’s growth and cause unreasonable jumps in costs. Using ADA would cause a massive price spike in relation to Cardano’s network growth.</li>
-</ul>
-
-<p>These elements contribute to a play2earn model, encouraging a monotonically increasing number of players.</p>
 
 
     <div class="tags">
