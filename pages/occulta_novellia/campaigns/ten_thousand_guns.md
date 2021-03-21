@@ -5,7 +5,7 @@ last_updated: March 14, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: ten_thousand_guns.html
-folder: pages
+folder: occulta_novellia/campaigns
 ---
 
 Thomas, her childhood friend, and could have been lover, lies crumpled on the stone floor. The crown operator has just ordered the Grevan soldiers to shoot him. He refused to be conscripted. Citizens with the ability to operate are too dangerous not to be processed.
