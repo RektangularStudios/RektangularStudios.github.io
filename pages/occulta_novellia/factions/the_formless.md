@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: the_formless.html
-folder: occulta_novellia
+folder: occulta_novellia/factions
 ---
 
 A horrific force has passed over Aphantasia. Some think the Brink is not the leftover art of a fallen society, but the remainder of a massive fight for continued existence.

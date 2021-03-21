@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: operators_guild.html
-folder: occulta_novellia
+folder: occulta_novellia/factions
 ---
 
 Childhood friends who escaped the choice of conscription or euthanization by the Grevan military. Through a series of unfortunate events, many of them have gained the capacity to tame and shapeshift into mythical creatures.

@@ -5,7 +5,7 @@ last_updated: March 18, 2021
 summary: 
 sidebar: mydoc_sidebar
 permalink: kingdom_of_grevania.html
-folder: occulta_novellia
+folder: occulta_novellia/factions
 ---
 
 A highly militarized people who specialize in training operators who can bend reality for as long as their body can survive it. They seek to extend reality to the surreal and unknown, at any cost, with few moral concerns to stop them.
