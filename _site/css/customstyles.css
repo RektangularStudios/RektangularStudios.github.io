@@ -207,7 +207,6 @@ p.post-meta {font-size: 80%; color: #777;}
     border-radius: 5px;
 }
 
-
 ul#results-container a {
     background-color: transparent;
 }
@@ -215,7 +214,6 @@ ul#results-container a {
 ul#results-container a:hover {
     color: black;
 }
-
 
 #search-demo-container a:hover {
     color: black;

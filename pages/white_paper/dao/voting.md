@@ -7,8 +7,8 @@ sidebar: mydoc_sidebar
 permalink: voting.html
 folder: white_paper/dao
 ---
+![Voting](/assets/infographics/Novellia_Voting_Infographics.jpg){:loading="lazy"}
 
-![Voting](/assets/infogrpahics/Novellia_Voting_Infographics.jpg"){:loading="lazy"}
 
 
 Token holders are able to vote for DAO actions that affect a multiverse they have played before, as documented by NFTs held in their wallet.
