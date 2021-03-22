@@ -1,0 +1,105 @@
+<script>
+{% assign counter = 0%}
+var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
+    "id": {{ counter }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "title": "{{ page.title }}",
+    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
+    "id": {{ counter }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "title": "{{ page.title }}",
+    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }, {% endfor %}{% for page in site.posts %}{
+    "id": {{ counter }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "title": "{{ page.title }}",
+    "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
+
+var idx = lunr(function () {
+    this.ref('id')
+    this.field('title')
+    this.field('body') 
+
+    documents.forEach(function (doc) {
+        this.add(doc)
+    }, this)
+});
+function lunr_search(term) {
+    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
+    if(term) {
+        document.getElementById('lunrsearchresults').innerHTML = document.getElementById('lunrsearchresults').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            //console.log(idx.search(term));
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var body = documents[ref]['body'].substring(0,160)+'...';
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'>" + title + "</a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
+        }
+    }
+    return false;
+}
+</script>
+<style>
+    input {
+        margin-top:10px;
+        border: 1px solid #dedede !important;
+        background-color: rgba(255,255,255,.8);
+    }
+    input:focus {
+    outline: none !important;
+    border:1px solid #cdd3c2 !important;
+    box-shadow: 0 0 10px #cdd3c2!important;
+    background-color: white !important;
+    }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid green;
+  -webkit-text-fill-color: black;
+  background-color: #cdd3c2;
+  box-shadow: 0 0 10px #cdd3c2 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+    #lunrsearchresults {
+        background-color: white;
+        margin-top: 10px;
+        border-radius: 5px;
+        font-size: 1em;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        }
+
+    .lunrsearchresult {padding-bottom: 0.5rem;}
+    .lunrsearchresult .title {color: black;}
+    .lunrsearchresult .url {color: black;}
+    .lunrsearchresult a {display: block !important; color: black;background-color: transparent !important;border: none !important;font-size:16 !important;line-height: normal !important;}
+</style>
+
+<form oninput="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search" />
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
