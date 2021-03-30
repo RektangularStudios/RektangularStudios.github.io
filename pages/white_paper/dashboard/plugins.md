@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: plugins.html
 folder: white_paper/dashboard
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 All items in the dashboard are plugins. The dashboard enumerates plugins from registrations made on the DAO.

@@ -1,5 +1,7 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
 entries:
 - title: sidebar
   product: 
@@ -83,6 +85,10 @@ entries:
     - title: Novellia Token
       url: /novellia_token.html
       output: web, pdf
+    
+    - title: Organization Token
+      url: /organization_token.html
+      output: web, pdf
   
   - title: Novellia Decentralized Exchange
     output: web, pdf
@@ -142,77 +148,76 @@ entries:
       url: /game_design.html
       output: web, pdf 
 
-#  - title: Occulta Novellia Characters
-#    output: web, pdf
-#    folderitems:
-#
-#    - title: Draculi
-#      url: draculi.html
-#      output: web, pdf
-#
-#    - title: Alpha Draculi
-#      url: alpha_draculi.html
-#      output: web, pdf
-#      
-#    - title: Iscara
-#      url: iscara.html
-#      output: web, pdf
-#
-#    - title: Laurence
-#      url: laurence.html
-#      output: web, pdf
+  - title: Occulta Novellia Characters
+    output: web, pdf
+    folderitems:
 
-#  - title: Occulta Novellia Factions
-#    output: web, pdf
-#    folderitems:
-#
-#    - title: Grevania
-#      url: /grevania.html
-#      output: web, pdf
-#
-#    - title: Operator Guild
-#      url: /operator_guild.html
-#      output: web, pdf
-#      
-#    - title: Phanamis
-#      url: /phanamis.html
-#      output: web, pdf
-#
-#    - title: The Formless
-#      url: /the_formless.html
-#      output: web, pdf
+    - title: Draculi
+      url: draculi.html
+      output: web, pdf
+
+    - title: Alpha Draculi
+      url: alpha_draculi.html
+      output: web, pdf
+      
+    - title: Iscara
+      url: iscara.html
+      output: web, pdf
+
+    - title: Laurence
+      url: laurence.html
+      output: web, pdf
+    - title: Occulta Novellia Factions
+      output: web, pdf
+      folderitems:
+
+    - title: Grevania
+      url: /grevania.html
+      output: web, pdf
+
+    - title: Operator Guild
+      url: /operator_guild.html
+      output: web, pdf
+      
+    - title: Phanamis
+      url: /phanamis.html
+      output: web, pdf
+
+    - title: The Formless
+      url: /the_formless.html
+      output: web, pdf
     
-#  - title: Occulta Novellia Places
-#    output: web, pdf
-#    folderitems:
-#
-#    - title: Aphantasia
-#      url: /aphantasia.html
-#      output: web, pdf
-#
-#    - title: Atrium of Forms
-#      url: /atrium_of_forms.html
-#      output: web, pdf
-#      
-#    - title: Garden of Residues
-#      url: /garden_of_residues.html
-#      output: web, pdf
-#
-#    - title: Isles of Ixis
-#      url: /isles_of_ixis.html
-#      output: web, pdf
-#    
-#    - title: Operator Fortress
-#      url: /operator_fortress.html
-#      output: web, pdf
-#
-#    - title: Regalia
-#      url: /regalia.html
-#      output: web, pdf
-#    
-#    - title: Sojourney
-#      url: /sojourney.html
-#      output: web, pdf
+  - title: Occulta Novellia Places
+    output: web, pdf
+    folderitems:
+
+    - title: Aphantasia
+      url: /aphantasia.html
+      output: web, pdf
+
+    - title: Atrium of Forms
+      url: /atrium_of_forms.html
+      output: web, pdf
+      
+    - title: Garden of Residues
+      url: /garden_of_residues.html
+      output: web, pdf
+
+    - title: Isles of Ixis
+      url: /isles_of_ixis.html
+      output: web, pdf
+    
+    - title: Operator Fortress
+      url: /operator_fortress.html
+      output: web, pdf
+
+    - title: Regalia
+      url: /regalia.html
+      output: web, pdf
+    
+    - title: Sojourney
+      url: /sojourney.html
+      output: web, pdf
 
 
   - title: Occulta Novellia Stories

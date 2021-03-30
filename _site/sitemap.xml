@@ -8,12 +8,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/abstract.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/advertising.html</loc>
   </url>
   
@@ -26,19 +20,13 @@
   
   
   <url>
-    <loc>http://localhost:4000/aphantasia.html</loc>
+    <loc>http://localhost:4000/arinspore.html</loc>
   </url>
   
   
   
   <url>
     <loc>http://localhost:4000/asset_list.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/atrium_of_forms.html</loc>
   </url>
   
   
@@ -68,7 +56,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/conclusion.html</loc>
+    <loc>http://localhost:4000/collectibles.html</loc>
   </url>
   
   
@@ -104,13 +92,13 @@
   
   
   <url>
-    <loc>http://localhost:4000/delivery.html</loc>
+    <loc>http://localhost:4000/draculi.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/draculi.html</loc>
+    <loc>http://localhost:4000/falcon.html</loc>
   </url>
   
   
@@ -136,12 +124,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/grevania.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/ico.html</loc>
   </url>
   
@@ -154,13 +136,13 @@
   
   
   <url>
-    <loc>http://localhost:4000/index.html</loc>
+    <loc>http://localhost:4000/illieander.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/introduction.html</loc>
+    <loc>http://localhost:4000/index.html</loc>
   </url>
   
   
@@ -172,7 +154,25 @@
   
   
   <url>
-    <loc>http://localhost:4000/isles_of_ixis.html</loc>
+    <loc>http://localhost:4000/iskadiel.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/thomas_the_brainless.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/kingdom_of_grevania.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/kingdom_of_phanamis.html</loc>
   </url>
   
   
@@ -220,13 +220,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/operator_fortress.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/operator_guild.html</loc>
+    <loc>http://localhost:4000/operators_guild.html</loc>
   </url>
   
   
@@ -244,13 +238,13 @@
   
   
   <url>
-    <loc>http://localhost:4000/phanamis.html</loc>
+    <loc>http://localhost:4000/plugins.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/plugins.html</loc>
+    <loc>http://localhost:4000/raptor.html</loc>
   </url>
   
   
@@ -262,7 +256,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/regalia_overview.html</loc>
+    <loc>http://localhost:4000/rotakin.html</loc>
   </url>
   
   
@@ -278,19 +272,19 @@
   
   
   <url>
-    <loc>http://localhost:4000/sojourney.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/system_monitoring.html</loc>
+    <loc>http://localhost:4000/pages/landing/system_monitoring.html</loc>
   </url>
   
   
   
   <url>
     <loc>http://localhost:4000/team.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/ten_thousand_guns.html</loc>
   </url>
   
   
@@ -320,7 +314,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/title.html</loc>
+    <loc>http://localhost:4000/thomas_the_lich.html</loc>
   </url>
   
   
@@ -342,7 +336,19 @@
   
   
   <url>
+    <loc>http://localhost:4000/voyin.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/welcome.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/zragnirr.html</loc>
   </url>
   
   

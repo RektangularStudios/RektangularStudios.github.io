@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: alpha_draculi.html
 folder: occulta_novellia/characters/creatures/garden_of_residues
+list_images: '/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 ![Alpha Draculi](/assets/images/illustrations/alpha_draculi_1080.png){:loading="lazy"}

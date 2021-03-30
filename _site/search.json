@@ -4,17 +4,6 @@
 
 
 {
-"title": "Abstract",
-"tags": "",
-"keywords": "",
-"url": "abstract.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Advertising",
 "tags": "",
 "keywords": "",
@@ -28,7 +17,7 @@
 {
 "title": "Alpha Draculi",
 "tags": "",
-"keywords": "Draculi",
+"keywords": "Garden of ResiduesDraculiAlpha DraculiCard",
 "url": "alpha_draculi.html",
 "summary": ""
 }
@@ -37,10 +26,10 @@
 
 
 {
-"title": "Aphantasia",
+"title": "Arinspore",
 "tags": "",
-"keywords": "Aphantasia",
-"url": "aphantasia.html",
+"keywords": "Garden of ResiduesArinspore",
+"url": "arinspore.html",
 "summary": ""
 }
 ,
@@ -52,17 +41,6 @@
 "tags": "",
 "keywords": "Game",
 "url": "asset_list.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Atrium of Forms",
-"tags": "",
-"keywords": "AtriumFormsGrevania",
-"url": "atrium_of_forms.html",
 "summary": ""
 }
 ,
@@ -114,10 +92,10 @@
 
 
 {
-"title": "Conclusion",
+"title": "Collectibles",
 "tags": "",
-"keywords": "",
-"url": "conclusion.html",
+"keywords": "CollectiblesCollectible",
+"url": "collectibles.html",
 "summary": ""
 }
 ,
@@ -180,10 +158,10 @@
 
 
 {
-"title": "Delivery",
+"title": "Draculi",
 "tags": "",
-"keywords": "",
-"url": "delivery.html",
+"keywords": "Garden of ResiduesDraculiCard",
+"url": "draculi.html",
 "summary": ""
 }
 ,
@@ -191,10 +169,10 @@
 
 
 {
-"title": "Draculi",
+"title": "Falcon",
 "tags": "",
-"keywords": "Draculi",
-"url": "draculi.html",
+"keywords": "GrevaniaGrevanFalcon",
+"url": "falcon.html",
 "summary": ""
 }
 ,
@@ -237,17 +215,6 @@
 
 
 {
-"title": "Grevania",
-"tags": "",
-"keywords": "Grevania",
-"url": "grevania.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Initial Coin Offering (ICO)",
 "tags": "",
 "keywords": "DEX",
@@ -270,6 +237,17 @@
 
 
 {
+"title": "Illieander",
+"tags": "",
+"keywords": "Garden of ResiduesIllieander",
+"url": "illieander.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "",
 "tags": "",
 "keywords": "Welcome",
@@ -281,20 +259,9 @@
 
 
 {
-"title": "Introduction",
+"title": "Iscara The Ten Thousand Guns",
 "tags": "",
-"keywords": "",
-"url": "introduction.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Iscara",
-"tags": "",
-"keywords": "Iscara",
+"keywords": "Operator's GuildOperatorIscaraCard",
 "url": "iscara.html",
 "summary": ""
 }
@@ -303,10 +270,43 @@
 
 
 {
-"title": "Isles of Ixis",
+"title": "Iskadiel",
 "tags": "",
-"keywords": "IxisIslesGrevania",
-"url": "isles_of_ixis.html",
+"keywords": "GrevaniaGrevanIskadielOperator",
+"url": "iskadiel.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Jackson the Brainless",
+"tags": "",
+"keywords": "Operator's GuildOperatorJackson",
+"url": "thomas_the_brainless.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Kingdom of Grevania",
+"tags": "",
+"keywords": "KingdomGrevania",
+"url": "kingdom_of_grevania.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Kingdom of Phanamis",
+"tags": "",
+"keywords": "KingdomPhanamis",
+"url": "kingdom_of_phanamis.html",
 "summary": ""
 }
 ,
@@ -327,7 +327,7 @@
 {
 "title": "Laurence",
 "tags": "",
-"keywords": "Laurence",
+"keywords": "PhanamisPhanamiteLaurenceCard",
 "url": "laurence.html",
 "summary": ""
 }
@@ -391,21 +391,10 @@
 
 
 {
-"title": "Operator&#39;s Fortress",
-"tags": "",
-"keywords": "OperatorGuildOperator's Fortress",
-"url": "operator_fortress.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Operator&#39;s Guild",
 "tags": "",
 "keywords": "OperatorGuildOperator's Guild",
-"url": "operator_guild.html",
+"url": "operators_guild.html",
 "summary": ""
 }
 ,
@@ -435,10 +424,10 @@
 
 
 {
-"title": "Phanamis",
+"title": "Plugins",
 "tags": "",
-"keywords": "Phanamis",
-"url": "phanamis.html",
+"keywords": "Dashboard",
+"url": "plugins.html",
 "summary": ""
 }
 ,
@@ -446,10 +435,10 @@
 
 
 {
-"title": "Plugins",
+"title": "Raptor",
 "tags": "",
-"keywords": "Dashboard",
-"url": "plugins.html",
+"keywords": "GrevaniaGrevanRaptor",
+"url": "raptor.html",
 "summary": ""
 }
 ,
@@ -468,10 +457,10 @@
 
 
 {
-"title": "Regalia Overview",
+"title": "Rotakin",
 "tags": "",
-"keywords": "Story",
-"url": "regalia_overview.html",
+"keywords": "Garden of ResiduesRotakin",
+"url": "rotakin.html",
 "summary": ""
 }
 ,
@@ -494,21 +483,10 @@
 
 
 {
-"title": "Sojourney",
+"title": "",
 "tags": "",
-"keywords": "SojourneyPhanamis",
-"url": "sojourney.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "System Monitoring",
-"tags": "",
-"keywords": "Monitoring",
-"url": "system_monitoring.html",
+"keywords": "",
+"url": "pageslandingsystem_monitoring.html",
 "summary": ""
 }
 ,
@@ -520,6 +498,17 @@
 "tags": "",
 "keywords": "Team",
 "url": "team.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Ten Thousand Guns",
+"tags": "",
+"keywords": "FormlessTen Thousand GunsOperator",
+"url": "ten_thousand_guns.html",
 "summary": ""
 }
 ,
@@ -571,10 +560,10 @@
 
 
 {
-"title": "Title",
+"title": "Thomas the Lich",
 "tags": "",
-"keywords": "",
-"url": "title.html",
+"keywords": "Operator's GuildOperatorThomas",
+"url": "thomas_the_lich.html",
 "summary": ""
 }
 ,
@@ -608,10 +597,32 @@
 
 
 {
+"title": "Voyin",
+"tags": "",
+"keywords": "Garden of ResiduesVoyin",
+"url": "voyin.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Welcome",
 "tags": "",
 "keywords": "Welcome",
 "url": "welcome.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Zragnirr",
+"tags": "",
+"keywords": "Garden of ResiduesZragnirrCard",
+"url": "zragnirr.html",
 "summary": ""
 }
 ,

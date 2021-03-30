@@ -1,0 +1,26 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<script>
+    // Image pool to select from
+    var str = '{{include.list_images}}';
+    var images = str.split(',');
+    // Pick a random image
+    var maxImages = images.length;
+    var rand = Math.floor(Math.random() * maxImages);
+    var image = images[rand];
+
+</script>
+
+<script>
+var update = {
+"background-color":"rgba(255,255,255,1)",
+"background":"-o-linear-gradient(top, rgba(205,211,194,0.5), rgba(255,255,255,0)),url("+image+") no-repeat",
+"background":"linear-gradient(to bottom, rgba(205,211,194,0.5), rgba(255,255,255,0)),url("+image+") no-repeat)",
+"background":"-webkit-gradient(linear, left top, left bottom, from(rgba(205,211,194,0.5)), to(rgba(255,255,255,1))),url("+image+") no-repeat",
+"height":"100%",
+"widght":"100%",
+}
+
+$('.jumbotron').css(
+update
+);
+</script>

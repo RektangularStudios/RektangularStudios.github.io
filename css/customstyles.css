@@ -1086,7 +1086,7 @@ h2.userMapTitle {
     text-decoration: none;
   }
 
-div.arrow {
+div.ar
     max-width: 50px;
     margin-left: 15px;
     margin-right: 15px;
@@ -1106,7 +1106,7 @@ div.content {
 }
 
 
-#userMap div.arrow {
+#userMap div.ar
     position: relative;
     top: 30px;
 }
@@ -1129,7 +1129,7 @@ div.box.box1 {
 
 }
 
-#userMap .complexArrow {
+#userMap .complexAr
     font-size: 22px;
     margin: 0px 10px;
 }
@@ -1201,27 +1201,20 @@ h4.panel-title {
     }
     .navbar-nav>li>a {
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
     .collapse.in{
         display:block !important;
     }
 }
 
-.background-image{
-    background:  -webkit-gradient(linear, left top, left bottom, from(rgba(205,211,194,0.5)), to(rgba(255,255,255,1))),url(/assets/images/draculi_render.png);
-    background:  -o-linear-gradient(top, rgba(205,211,194,0.5), rgba(255,255,255,1)),url(/assets/images/draculi_render.png);
-    background:  linear-gradient(to bottom, rgba(205,211,194,0.5), rgba(255,255,255,1)),url(/assets/images/draculi_render.png);
-    height: auto;
-    width:100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    background-color: white;
-}
-
 .paragraph-formating{
     text-align: justify;
     height: 100%;
     line-height: 1.5em;
+}
+
+.left-right-margin-15-px{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
 }

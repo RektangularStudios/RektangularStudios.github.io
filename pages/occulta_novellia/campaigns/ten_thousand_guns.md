@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: ten_thousand_guns.html
 folder: occulta_novellia/campaigns
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 Thomas, her childhood friend, and could have been lover, lies crumpled on the stone floor. The crown operator has just ordered the Grevan soldiers to shoot him. He refused to be conscripted. Citizens with the ability to operate are too dangerous not to be processed.
