@@ -5750,17 +5750,20 @@ a.badge:hover {
 
 .jumbotron .h1,
 .jumbotron h1 {
-    color: inherit
+    color: inherit;
 }
 
 .jumbotron p {
     margin-bottom: 0px;
-    font-size: 21px;
-    font-weight: 200
+    font-size: 15px !important;
+    font-weight: inherit;
+    line-height: 1.5em !important;
+    text-align: justify im !important;
+    
 }
 
 .jumbotron>hr {
-    border-top-color: #d5d5d5
+    border-top-color: #d5d5d5;
 }
 
 .container .jumbotron,
@@ -5783,7 +5786,7 @@ a.badge:hover {
     }
     .jumbotron .h1,
     .jumbotron h1 {
-        font-size: 63px
+        font-size: 36px !important;
     }
 }
 

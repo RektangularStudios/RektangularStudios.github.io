@@ -284,7 +284,7 @@
 "title": "Jackson the Brainless",
 "tags": "",
 "keywords": "Operator's GuildOperatorJackson",
-"url": "thomas_the_brainless.html",
+"url": "jackson_the_brainless.html",
 "summary": ""
 }
 ,
@@ -450,6 +450,17 @@
 "tags": "",
 "keywords": "Regalia",
 "url": "regalia.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Regalia Overview",
+"tags": "",
+"keywords": "Story",
+"url": "regalia_overview.html",
 "summary": ""
 }
 ,

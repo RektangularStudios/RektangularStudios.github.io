@@ -369,7 +369,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav > li.active > a  {
-background-color: #347DBE;
+background-color: #91a276 !important;
 }
 
 .nav li a {
