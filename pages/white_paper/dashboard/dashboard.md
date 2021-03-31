@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: dashboard.html
 folder: white_paper/dashboard
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 A dashboard is provided to ease access to dApps registered on the DAO. It supports Windows, Mac, and Linux platforms as a desktop application.

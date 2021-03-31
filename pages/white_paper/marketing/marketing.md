@@ -7,6 +7,7 @@ sidebar: mydoc_sidebar
 permalink: marketing.html
 folder: white_paper/marketing
 toc: false
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 Our customer base is a young, educated, and tech savvy demographic. They have an average age of 34, with the 18 - 35 year olds being the most active. The largest markets in the gaming industry are China, US, and Japan which are all accessible with our product. Again, the ICO is unavailable to US residents.

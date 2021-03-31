@@ -83,6 +83,10 @@ entries:
     - title: Novellia Token
       url: /novellia_token.html
       output: web, pdf
+    
+    - title: Organization Token
+      url: /organization_token.html
+      output: web, pdf
   
   - title: Novellia Decentralized Exchange
     output: web, pdf
@@ -127,7 +131,7 @@ entries:
       output: web, pdf
       
     - title: Decentralization Model
-      url: decentralized_model.html
+      url: /decentralized_model.html
       output: web, pdf
 
     - title: Asset List
@@ -142,78 +146,97 @@ entries:
       url: /game_design.html
       output: web, pdf 
 
-#  - title: Occulta Novellia Characters
-#    output: web, pdf
-#    folderitems:
-#
-#    - title: Draculi
-#      url: draculi.html
-#      output: web, pdf
-#
-#    - title: Alpha Draculi
-#      url: alpha_draculi.html
-#      output: web, pdf
-#      
-#    - title: Iscara
-#      url: iscara.html
-#      output: web, pdf
-#
-#    - title: Laurence
-#      url: laurence.html
-#      output: web, pdf
+  - title: Occulta Novellia Characters
+    output: web, pdf
+    folderitems:
 
-#  - title: Occulta Novellia Factions
-#    output: web, pdf
-#    folderitems:
-#
-#    - title: Grevania
-#      url: /grevania.html
-#      output: web, pdf
-#
-#    - title: Operator Guild
-#      url: /operator_guild.html
-#      output: web, pdf
-#      
-#    - title: Phanamis
-#      url: /phanamis.html
-#      output: web, pdf
-#
-#    - title: The Formless
-#      url: /the_formless.html
-#      output: web, pdf
+    - title: Draculi
+      url: /draculi.html
+      output: web, pdf
+
+    - title: Alpha Draculi
+      url: /alpha_draculi.html
+      output: web, pdf
+
+    - title: Arinspore
+      url: /arinspore.html
+      output: web, pdf
+
+    - title: Illieander
+      url: /illieander.html
+      output: web, pdf
+
+    - title: Rotakin
+      url: /rotakin.html
+      output: web, pdf
+
+    - title: Voyin
+      url: /voyin.html
+      output: web, pdf      
+
+    - title: Zrangnirr
+      url: /zragnirr.html
+      output: web, pdf 
+
+    - title: Falcon
+      url: /falcon.html
+      output: web, pdf
+
+    - title: Iskadiel
+      url: /iskadiel.html
+      output: web, pdf
+
+    - title: Raptor
+      url: /raptor.html
+      output: web, pdf      
+
+    - title: Laurence
+      url: /laurence.html
+      output: web, pdf 
+
+    - title: Iscara the Ten Thousand Guns
+      url: /iscara.html
+      output: web, pdf
+
+    - title: Jackson The Brainless
+      url: /jackson_the_brainless.html
+      output: web, pdf
+
+    - title: Thomas the Lich
+      url: /thomas_the_lich.html
+      output: web, pdf      
+
+    - title: Ten Thousand Guns
+      url: /ten_thousand_guns.html
+      output: web, pdf            
     
-#  - title: Occulta Novellia Places
-#    output: web, pdf
-#    folderitems:
-#
-#    - title: Aphantasia
-#      url: /aphantasia.html
-#      output: web, pdf
-#
-#    - title: Atrium of Forms
-#      url: /atrium_of_forms.html
-#      output: web, pdf
-#      
-#    - title: Garden of Residues
-#      url: /garden_of_residues.html
-#      output: web, pdf
-#
-#    - title: Isles of Ixis
-#      url: /isles_of_ixis.html
-#      output: web, pdf
-#    
-#    - title: Operator Fortress
-#      url: /operator_fortress.html
-#      output: web, pdf
-#
-#    - title: Regalia
-#      url: /regalia.html
-#      output: web, pdf
-#    
-#    - title: Sojourney
-#      url: /sojourney.html
-#      output: web, pdf
+  - title: Occulta Novellia Places
+    output: web, pdf
+    folderitems:
 
+    - title: Kingdom of Grevania
+      url: /kingdom_of_grevania.html
+      output: web, pdf
+
+    - title: Kingdom of Phanamis
+      url: /kingdom_of_phanamis.html
+      output: web, pdf
+
+    - title: Operators Guild
+      url: /operators_guild.html
+      output: web, pdf
+
+    - title: The Formless
+      url: /the_formless.html
+      output: web, pdf
+      
+    - title: Gaden of Residues
+      url: /garden_of_residues.html
+      output: web, pdf  
+
+    - title: Regalia
+      url: /regalia.html
+      output: web, pdf                     
 
   - title: Occulta Novellia Stories
     output: web, pdf
@@ -223,10 +246,6 @@ entries:
       url: /regalia_overview.html
       output: web, pdf
       type: homepage
-
-    - title: Ten Thousand Guns
-      url: /ten_thousand_guns.html
-      output: web, pdf
 
     - title: Birds of Prey
       url: /birds_of_prey.html
@@ -238,9 +257,9 @@ entries:
       output: web, pdf
 
     - title: Ten Thousand Guns - Slide Puzzle
-      url: ten_thousand_guns_slide_puzzle.html
+      url: /ten_thousand_guns_slide_puzzle.html
       output: web, pdf
       
     - title: Ten Thousand Guns - The Operators Guild
-      url: ten_thousand_guns_the_operators_guild.html
+      url: /ten_thousand_guns_the_operators_guild.html
       output: web, pdf

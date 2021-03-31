@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: asset_list.html
 folder: white_paper/occulta_novellia
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 Any content that the developers create may be duplicated using community tools. NFTs and their associated data are stored in decentralized storage. If players want to create their own clients or mods for the game all NFT assets should be portable to those clients.

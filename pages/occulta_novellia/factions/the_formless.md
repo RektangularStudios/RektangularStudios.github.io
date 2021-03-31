@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: the_formless.html
 folder: occulta_novellia/factions
+list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 A horrific force has passed over Aphantasia. Some think the Brink is not the leftover art of a fallen society, but the remainder of a massive fight for continued existence.

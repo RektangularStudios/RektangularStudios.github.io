@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: arinspore.html
 folder: occulta_novellia/characters/creatures/garden_of_residues
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 They should never have been allowed to continue their existence, but their quick reproduction has staved all attempts at eradication. These massive spiders feast on all things, small and large. Lacking the ability to feel full, they are permanently on edge, constantly in wait for their next meal.

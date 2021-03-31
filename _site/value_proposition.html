@@ -16,7 +16,6 @@
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="css/customstyles.css">
 <link rel="stylesheet" href="css/boxshadowproperties.css">
 <!-- most color styles are extracted out to here -->
 <link rel="stylesheet" href="css/theme-green.css">
@@ -25,15 +24,15 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="js/jquery.navgoco.min.js"></script>
-
-
+<!-- backstreach (random image)-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Anchor.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
 <script src="js/toc.js"></script>
 <script src="js/customscripts.js"></script>
-
+<link rel="stylesheet" href="css/customstyles.css">
 <link rel="shortcut icon" href="images/favicon.ico">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -95,11 +94,10 @@
         });
     </script>
     
-
 </head>
-<body class="background-image">
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-static-top">
+<body>
+    <!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0px !important;">
     <div class="container topnavlinks">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -165,16 +163,18 @@
         <!-- /.container -->
 </nav>
 
-<!-- Page Content -->
-<div class="container">
-  <div id="main">
-    <!-- Content Row -->
-    <div class="row">
-        
-        
-            <!-- Sidebar Column -->
-            <div class="col-md-3" id="tg-sb-sidebar">
-                
+    <!-- Page Content -->
+    <div id='myelement'>
+      <div id="main">
+        <!-- Content Row -->
+        <div class="left-right-margin-15-px">
+          
+        <div class="row">
+            
+            
+                <!-- Sidebar Column -->
+                <div class="col-md-3" id="tg-sb-sidebar">
+                    
 
 <ul id="mysidebar" class="nav">
   <li class="sidebarTitle"> </li>
@@ -420,12 +420,103 @@
       
   
   <li>
-      <a title="Occulta Novellia Stories" href="#">Occulta Novellia Stories</a>
+      <a title="Occulta Novellia Characters" href="#">Occulta Novellia Characters</a>
       <ul>
           
           
           
-          <li><a title="Regalia Overview" href="regalia_overview.html">Regalia Overview</a></li>
+          <li><a title="Draculi" href="draculi.html">Draculi</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Alpha Draculi" href="alpha_draculi.html">Alpha Draculi</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Arinspore" href="arinspore.html">Arinspore</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Illieander" href="illieander.html">Illieander</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Rotakin" href="rotakin.html">Rotakin</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Voyin" href="voyin.html">Voyin</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Zrangnirr" href="zragnirr.html">Zrangnirr</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Falcon" href="falcon.html">Falcon</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Iskadiel" href="iskadiel.html">Iskadiel</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Raptor" href="raptor.html">Raptor</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Laurence" href="laurence.html">Laurence</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Iscara the Ten Thousand Guns" href="iscara.html">Iscara the Ten Thousand Guns</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Jackson The Brainless" href="jackson_the_brainless.html">Jackson The Brainless</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Thomas the Lich" href="thomas_the_lich.html">Thomas the Lich</a></li>
           
           
           
@@ -433,6 +524,73 @@
           
           
           <li><a title="Ten Thousand Guns" href="ten_thousand_guns.html">Ten Thousand Guns</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Occulta Novellia Places" href="#">Occulta Novellia Places</a>
+      <ul>
+          
+          
+          
+          <li><a title="Kingdom of Grevania" href="kingdom_of_grevania.html">Kingdom of Grevania</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Kingdom of Phanamis" href="kingdom_of_phanamis.html">Kingdom of Phanamis</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Operators Guild" href="operators_guild.html">Operators Guild</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="The Formless" href="the_formless.html">The Formless</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Gaden of Residues" href="garden_of_residues.html">Gaden of Residues</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Regalia" href="regalia.html">Regalia</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Occulta Novellia Stories" href="#">Occulta Novellia Stories</a>
+      <ul>
+          
+          
+          
+          <li><a title="Regalia Overview" href="regalia_overview.html">Regalia Overview</a></li>
           
           
           
@@ -484,144 +642,144 @@ var documents = [{
     "body": "Sorry, but the page you were trying to view does not exist. Try searching for it or looking at the URL to see if it looks correct. "
     }, {
     "id": 1,
-    "url": "http://localhost:4000/abstract.html",
-    "title": "Abstract",
-    "body": "The Novellia platform provides software for developers to create a collaborative, decentralized, discrete, multiverses including: games, applications, stories, and artwork. Owners of the Novellia (NVLA) governance token vote to determine consensus and control the direction of each multiverse. Occulta Novellia, a bootstrap game, determines the requirements for the platform as it is developed. Through the Novellia Dashboard, developers can distribute their games in a decentralized manner. This avoids the censorship and high fees that exist on centralized game markets. "
-    }, {
-    "id": 2,
     "url": "http://localhost:4000/advertising.html",
     "title": "Advertising",
     "body": "We advertise using the following methods targeting: US, China, Japanese, and African countries. Our advertisement model targets:  Reddit Engagement (Posts, Updates, Polls) Twitter YouTube Influencers Interviews / Podcasts News Websites (Crypto, Gaming, Tech) Paid Ads"
     }, {
-    "id": 3,
+    "id": 2,
     "url": "http://localhost:4000/alpha_draculi.html",
     "title": "Alpha Draculi",
-    "body": ""
+    "body": " Cards: Alpha Draculi: The Draculi are not restricted to the Garden of Residues’ waters. Their stronger brethren roam the land beyond, leading packs of wolf-like underling Draculi. Birthed with a rare, fiery genetic trait, the Alpha Draculi love the taste of blood. They prefer to slowly kill their prey, often letting it sit still alive in their clamped jaws. "
+    }, {
+    "id": 3,
+    "url": "http://localhost:4000/arinspore.html",
+    "title": "Arinspore",
+    "body": "They should never have been allowed to continue their existence, but their quick reproduction has staved all attempts at eradication. These massive spiders feast on all things, small and large. Lacking the ability to feel full, they are permanently on edge, constantly in wait for their next meal. They consume prey by sticking them to their thorax. A thin ooze generated by its skin slowly melts prey while they’re alive, screaming until they run out of energy. The carcass of attached victims then falls off. Plomp! And hatches new Arinspore. "
     }, {
     "id": 4,
-    "url": "http://localhost:4000/aphantasia.html",
-    "title": "Aphantasia",
-    "body": ""
-    }, {
-    "id": 5,
     "url": "http://localhost:4000/asset_list.html",
     "title": "Asset List",
     "body": "Any content that the developers create may be duplicated using community tools. NFTs and their associated data are stored in decentralized storage. If players want to create their own clients or mods for the game all NFT assets should be portable to those clients. The game environment is composed of standalone maps with distinctive themes. Characters engage in strategic combat on these maps. References to the assets for these maps are stored as index sets on Cardano. These are not necessarily immutable. Maps can be loaded locally as well, but this sort of deployment does not enjoy the benefits of decentralization. The single player mode is not decentralized at all. It uses an authoritative server model:  The authoritative server is used to record progress in a secure manner.  Players can earn NFTs by playing campaigns. These NFTs are minted apriori to be distributed from the developer’s centralized authority. These are necessarily paid for at the developer’s discretion. Notice that the developers cannot print infinitely many NFTs for this purpose. Their own minters have a positive price offset with respect to the amount minted.  Players do not necessarily have to use their own NFTs during campaigns. Players initially play campaigns using NFTs from the story, which they do not own. Players cannot use non-owned NFTs from one campaign in another. Once a player completes a campaign they can play it using their owned NFTs. "
     }, {
-    "id": 6,
-    "url": "http://localhost:4000/atrium_of_forms.html",
-    "title": "Atrium of Forms",
-    "body": ""
-    }, {
-    "id": 7,
+    "id": 5,
     "url": "http://localhost:4000/birds_of_prey.html",
     "title": "Birds of Prey",
     "body": "The stars are impossibly bright, a blend between the lake at the bottom of the hill, and a perspective beyond an open airlock. It’s the hazy version of something so much brighter, and totally unbreathable. Isles, so-called sections of space with varying speeds of time, are constantly changing their boundaries: sometimes to outer space. They surround the Grevan capitol, Ixis, making it nearly impossible to assault. I aim my laser at a tree near me, but it doesn’t appear. The tree must be long gone, ages past in seconds with respect to my own position. Like the light of a long-gone star. No one has ever survived crossing a zone line, or at least, returned to prove it. My machete clanks as I sprint. I’ll leave my partner’s body here, he was impaled by the other IC-V. He tried to shoot it like a normal rifle, and the scope went 2/3 into his skull. It’s a shame I don’t have time to grab the gun. What a dumbass. I told him not to do that. Armed with the intercontinental, kinetic cannon (IC-V) he stole from a military installation, Raptor faces almost sure death. The Isles have moved, disconnecting his entrance path. It’s anyone’s guess if an exit still exists, despite surviving crossing the zone line itself. Delving deeper into the isles, he discovers the notes of fallen Grevans, lamenting on a legendary feat: The Climb. Hopefully he can execute it before he starves to death. Ixis is strategically placed at “the top” of the Isles, or in the fastest zone. That’s why it doesn’t break apart from the moving zones. If he can find a sequence of connected spaces increasing in their speeds of time, he must inevitably reach the capitol by convergence. But he’ll need to travel deeper first. Who knows what histories about the Kingdom of Grevania will be revealed? Or how aged he’ll be when he returns. "
     }, {
-    "id": 8,
+    "id": 6,
     "url": "http://localhost:4000/budget.html",
     "title": "Spending",
     "body": "We plan to use the Cardano Funding in the following catagories:  2D Artwork: $12000     Sprites   Illustrations   UI Assets    3D Artwork : $6000     Models   Meshes   Rigging   Textures   Animations    Audio : $5000     Effects   Soundtracks    UI / UX Design : $7500 Marketing : $5000 Legal Fees : $3000 Technology Stack : $4000 Infrastructure : $4500 Taxes : $9000"
     }, {
-    "id": 9,
+    "id": 7,
     "url": "http://localhost:4000/cards.html",
     "title": "Cards",
     "body": " Stages: For each class of collectible, there are 3 stages that can be used to build a progression for a character deployed into a match. Stage Descriptions  Stage 1: These are the only characters that can be deployed at the start of a match. The others must be swapped in through gained experience. Only stage 1 characters have a squad slot and base stats.  Stage 2: These can replace a stage 1 character once it has enough experience in a match. Upper stages replace attributes and base stats.  Stage 3: These can replace a stage 2 character once it has enough experience in a match. Upper stages replace attributes and base stats. Draculi is a stage 1 collectible. There are multiple possible progressions for a class. If “Cannibal Draculi” and “Pack Draculi” are both stage 2 characters, either can be chosen as the stage 1 Draculi’s progression. This must be decided prior to the start of the match during a staging phase. If there are multiple stage 1 Draculi deployed, the player cannot use the same NFT multiple times to design both progressions. In this case, the player would need to collect multiple of each upper level NFT, and mutiple stage 1 Draculi to accompany. This encourages collecting multiplicities of a single card, increasing market demand. Attributes: Attributes are stored as a string array on the NFT. Draculi has attributes “Agile”, “Swim”, “Bite”, which are stored as literal words on the NFT. There is no additional data to determine the definition for these words. That is the job of the game’s card engine. The attributes are interpreted into a combination of activated and passive abilities. This interpretation is subject to change based on the version of the game client, or mods, for balancing purposes. This is a compromise. The attributes cannot be removed from the NFT itself. This preserves value: even if one interpreter version devalues the attributes, another may provide a different interpretation. Draculi’s Attributes  Bite is an attack move that costs action points.  Swim means that Draculi can move across water terrain.  Agile gives Draculi a higher than normal chance to avoid incoming attacks. Slots: In Occulta Novellia, characters are deployed in squads with an average capacity of 4 slots, but this can vary for each map. The slots stat indicates how much space Draculi takes within a squad. Slots typically range from 1-4, with the following categories  1 Slot: Generic or weaker characters such as Draculi, Grevan Rifleman, Phanamite Autoneer.  2 Slots: Heroes or leaders such as Iscara, Thomas, Laurence, Garret.  3 Slots: Brutes, heavy hitters, or large creatures such as Raptor, Arinspore.  4 Slots: Legendary or very powerful units such as Iskadiel, Ten Thousand Guns, Phanasmac. If a player needs to fill a squad of capacity 4, they might choose 4 Draculi, or 1 Draculi and 1 Arinspore. Base Stats: These are stored as mandatory integers on the NFT. There may also be extended stats which determine the degree of ability related to certain attributes. Categories  Health indicates how much damage Draculi can take before dying.  Each squad shares a fixed number of action points. These do not regenerate fully every turn, but recover slowly. This means if one character performs too many actions in a turn, another character in the same squad has insufficient action points to do anything. Move indicates how many action points it costs for every hex tile the character crosses.  Attack indicates how much damage Draculi deals, multiplied by an integer associated with its bite move. The multiplier is not stored on the NFT, so it can be altered for balancing purposes. "
     }, {
-    "id": 10,
+    "id": 8,
     "url": "http://localhost:4000/client.html",
     "title": "Client",
     "body": "Occulta Novellia is provided as a desktop app within the Novellia Dashboard. Players connect their wallet to unlock usage of their NFTs. The solution for this functionality is not yet determined. Development begins by wrapping cardano-cli in a sketchy manner. We target Windows, Mac, and Linux clients first, with potential mobile versions in the future. "
     }, {
-    "id": 11,
-    "url": "http://localhost:4000/conclusion.html",
-    "title": "Conclusion",
-    "body": "Video games pose a unique opportunity for adoption of blockchain technology through the tokenization of in game assets, and the potential to allow decentralized peer-to-peer online multiplayer gaming. The challenges leading to a lack of adoption are high fees associated with blockchain technologies and a lack of domain expertise. We presented the Novellia platform along with its self-titled governance token, to provide users the ability to democratically develop their stories in silos called multiverses. To kickstart the usage of this platform, we proposed Occulta Novellia, the turn-based strategy game. It is developed with an authoritative server model and eventually will have components migrated to be decentralized with the help of Hydra. This provides a leading example for Indie developers and AAA studios to follow in the usage of the Novellia platform, by testing, marketing, and delivering a working proof of concept. "
+    "id": 9,
+    "url": "http://localhost:4000/collectibles.html",
+    "title": "Collectibles",
+    "body": "Every playable character is a collectible asset! What exactly are the collectibles?: Collectible assets are Non-Fungible Tokens (NFT) which are stored on the Cardano blockchain. These NFTs are issued by smart contracts in limited amounts. Where are my collectible assets (aka NFTs) stored?: Your own collectibles are stored in your blockchain wallet(s) making you the sole owner of them. What are the collectible assets used for?: As long as you own a character’s collectible asset, meaning that it’s in your connected wallet, the character will be playable for you in the game! Can I do anything other than play Occulta Novellia with my collectible assets?: You can buy them with NVLA or sell them for NVLA in our official in-game community marketplace! "
     }, {
-    "id": 12,
+    "id": 10,
     "url": "http://localhost:4000/dao.html",
     "title": "Decentralized Autonomous Organization (DAO)",
     "body": "The Novellia platform exposes a set of distinct contract whitelists for each multiverse. These whitelists enumerate the content authorized to interact with dApps related to its respective multiverse. This is an opt-in policy for dApps, but conformance to an API is necessary for autonomous extension and approval of community content. dApps are not required to register if they are only consumers. They can provide their own core functionality or be closed source. A dApp is incentivized to register on-chain smart contracts or NFTs for interoperability with other consumers. dApps may register to multiple multiverses, but assets may incidentally fail to generalize to other multiverses except when using a purely consumer model. This is the case for an exchange. Proposals to mutate a multiverse’s whitelist are restricted to that multiverse. A voter must own assets registered to a multiverse to vote on proposals relevant to it. This ownership is defined by the existence of an NFT in the voter’s wallet. All voting is done with the Novellia (NVLA) token to avoid a fractured economy. This supports the creation of a never-ending story, or multiverse, without allowing for degradation of content. Examples of this use-case include fan fiction, story based games with a continuous canon such as card games, and games with many extensions that need to be canonicalized (MMOs with many popular story directions). A nominal proposal registration fee prevents sybil attacks. It also incentivizes active voting, as the fee is paid to participants. Assets registered on the DAO do not extend the DAO. They may interact as they are designed to, but this is not facilitated as a function of the DAO, nor does the DAO take on the security burden. This separation of affairs means that one might want to register multiple contracts for a single functionality, or suggest revisions to existing contracts. The dashboard application supports a standard API for contracts to implement, allowing them to appear on it, but this is not explicitly supported by the DAO. Other hub-like applications may define their own APIs. The DAO supports minimal functionality for consensus purposes  Adding or updating of smart contracts.  The removal of smart contracts.  Upgrading the DAO itself to a new smart contract. "
     }, {
-    "id": 13,
+    "id": 11,
     "url": "http://localhost:4000/dashboard.html",
     "title": "Novellia Dashboard",
     "body": "A dashboard is provided to ease access to dApps registered on the DAO. It supports Windows, Mac, and Linux platforms as a desktop application. The licensing schemes below and elsewhere are not official and are subject to change. They do not constitute any permissions. Due to the potential for IP theft, the Novellia Dashboard is initially closed-source, but with strong potential for becoming open-sourced at a later time. This methodology must change if it becomes incompatible with community needs. We intend to develop in as much of a trustless manner as possible, by exposing critical software as open-source plugins whereby the Novellia Dashboard acts mostly like a linker. Closed Source Software  Novellia Dashboard     Wallet Interface specifically for viewing supported NFTs   Community Voting / Interface for interacting with DAO   Multiverse, dApp Sorting and Analytics (our equivalent of a blockchain explorer)   Decentralized Exchange (DEX)         Novellia (NVLA) / ADA trading pair and ICO     NFTs     Try before you buy (DEX plugins for NFTs)          Open Source Software  Smart Contracts Novellia Dashboard Plugins Community Tooling / SDKsThese deliverables are only for our first set of features within the Novellia Dashboard. Monetization is through  Content developed by Rektangular Studios and sold through the Novellia Dashboard (NFTs, game content, etc. ) Retaining a fraction of Novellia (NVLA) disbursed through an ICO A very low commission on the decentralized exchange (about 0. 2%)     This is removable for those who are willing to recompile the relevant open-source code. It is fair since Rektangular Studios must provide continuing support for the Novellia Dashboard.    Dashboard plugins are sorted based on analytics generated from metrics such as user count, voting turnout, and duration of existence. This algorithm is customizable and implemented as an open source plugin. "
     }, {
-    "id": 14,
+    "id": 12,
     "url": "http://localhost:4000/decentralized_model.html",
     "title": "Decentralized Model",
     "body": "Many blockchain games support asset ownership, including cards, kitties, or gods. These have varying degrees of centralization. Some of these have backdoors  High Fees BackdoorsSome of these suffer from high transaction fees  Ethereum Network CongestionOur definition of decentralization requires the following provisions  Decentralization can’t be the at the cost of absurd fees.  In-game assets are non-custodial.  Developers do not have the capacity to devalue in-game assets for profit.  Developers cannot inflate or print assets for the purpose of eventually selling them.  Developers cannot fail to support proprietary software that must be supported for assets to have value.  Developers cannot fail to host data relevant to the game’s functioning.  Developers cannot affect game-logic such that asset devaluation occurs through loss of rarity or significant loss of usefulness. Balancing may be required for interpretation of NFT attributes. The minimal steps taken towards decentralization are  All NFTs are generated by immutable minter contracts, deployed once. Metadata is stored on Cardano.  Large files such as illustrations of NFT characters are stored on IPFS or similar technology.  All NFTs are exposed for third-party usage (wallets, games, dApps) via an SDKStretch goals for decentralization are as follows  All multiplayer game logic is accessible in a totally decentralized manner and can be run on Cardano using Hydra. This includes non-gameplay elements such as matchmaking.  Game is fully moddable. Any first-party content is completely replicable using provided modding tools.  Additional character NFTs or game rule changes are voted on by the community.  Supported game modes such as modes allowing only certain NFTs are community decided. "
     }, {
-    "id": 15,
+    "id": 13,
     "url": "http://localhost:4000/decentralized_exchange.html",
     "title": "Decentralized Exchange",
     "body": "NFTs can be traded peer-to-peer or through a decentralized exchange provided inside the dashboard. The DEX sorts NFTs by games relevant to you, and allows you to see the complete set of NFTs across all multiverses. NFTs can be bought or sold for set prices by issuing a smart contract that awaits payment before swapping goods. Smart contracts to facilitate bidding past a minimum price are also supported. These will close after a predefined period of time. The DEX can also be extended through plugins. The developers intend to provide such a plugin so that Occulta Novellia assets can be tried before they are purchased, in a limited game environment. "
     }, {
-    "id": 16,
+    "id": 14,
     "url": "http://localhost:4000/decentralized_game_operation.html",
     "title": "Decentralized Game Operation",
     "body": "In the initial stage of development, Occulta Novellia replaces Hydra with an authoritative server model. This is abstracted such that the backend can easily be upgraded as decentralization features become available. This section is designed based on the current version of Hydra and does not consider alternative designs such as sharding. The play model makes sense for Occulta Novellia and similar turn-based games. The process may also be extensible to other dApp variants. We do not attempt to discuss them here. To initiate a match, a player is required to send the NFTs they are using to a locking contract. This automatically returns the NFTs when a match is completed. This prevents the player from starting multiple matches using the same NFTs, decreasing the prevalence of bots and other sybil attacks. When a match is started  The initial state is check-pointed onto the L1 Cardano blockchain.  A Hydra head is opened for cheaper transactions.  If consensus fails within the Hydra head, it is ejected back to the L1 Cardano blockchain to determine the result. This creates another checkpoint.  If a player leaves the game and pausing is allowed for asynchronous play the Hydra head ejects after a period of time. The Hydra head needs to be reopened before a time set at the match’s inception or the match is forfeited. Players must manually trigger changes to the game state since smart contracts do not execute autonomously. Gameplay is defined in a transcriptable manner like tournament Chess. Turns in Occulta Novellia are issued one turn per transaction. Each turn may include multiple actions which build a queue. "
     }, {
-    "id": 17,
-    "url": "http://localhost:4000/delivery.html",
-    "title": "Delivery",
-    "body": "The categories for delivery are:  Novellia Dashboard (Desktop App) and Plugins DAO / Smart Contracts Occulta Novellia (Desktop Game)These are described in subsequent sections. "
-    }, {
-    "id": 18,
+    "id": 15,
     "url": "http://localhost:4000/draculi.html",
     "title": "Draculi",
-    "body": ""
+    "body": " Cards: Draculi: The Draculi are fast serpents with human-like jaws. So-named for their resemblance to vampires, their human teeth have fangs to suck blood. They prefer to live in water, leaving it with a red tint. It is not known where they go, deep within the Garden of Residues’ waters. "
     }, {
-    "id": 19,
+    "id": 16,
+    "url": "http://localhost:4000/falcon.html",
+    "title": "Falcon",
+    "body": "Raptor’s latest partner in war. Falcon is confident he’ll be the last, but time will tell. Raptor told me not to fire the IC-V without a mount. Now I’ve got scope eye. "
+    }, {
+    "id": 17,
     "url": "http://localhost:4000/faq.html",
     "title": "FAQ",
     "body": "Am I locked in if I decide to use Novellia?: No. You select what features are beneficial for your product. Is this a proposal for a platform or a game?: Yes. We are building the video game Occulta Novellia in order to help test the systems needed to build the Novellia Platform. What is the Novellia Platform?: The platform is a set of tools designed for video games to interact with the Cardano blockchain. The Novellia Dashboard acts as a decentralized game store. The tools provided allow developers to pick and choose blockchain features to use in their video game. These tools, while optional, provide a formally reviewed standard that ensures certain design provision are met, including that assets within Novellia are hard to devalue by design. Our process:  Plan Review Rework Follow-up Keep iteratingIf it isn’t finished, it isn’t shipped. What is Occulta Novellia?: It’s a surreal horror turn-based strategy monster fighting game. You will be able to fight through single player story lines, giving you a better understanding of the multiverse, or fight in decentralized peer-to-peer battles, with rewards going to the victor. I don’t get it? Why do we need the Occulta Novellia video game?: Because designing a platform is hard. It’s more difficult when there’s nothing to test against. We could wait until it’s finished, but then it’d be too late. Occulta Novellia efficiently forces us to ensure the platform conforms to real-life scenarios, not an ideal. What is Novellia if it’s not just a dashboard?: The Novellia platform exposes a decentralized autonomous organization (DAO) where holders of the Novellia (NVLA) token vote to determine what’s allowed into the Novellia Dashboard. The dashboard is just a UI that surfaces everything that’s been registered on the DAO, allowing it to be interacted with all in one place. How do I get my game on Novellia?: Registration on the DAO involves:  Filling out a middleware that is proposed to the DAO.  If the proposal passes, the middleware is registered.  This is the developer’s “personal space” on the DAO.      They are free to modify the data within some reasonable restrictions.    That’s it. So I’m going to make $0 off my game because people will buy used only?: If you want to. Otherwise, you could create multiple game license kinds. Perhaps there’s a 10% chance that a buyer will get a special game license unlocking an extra skin, level, or something else. How do I make blockchain assets for my game?: We provide minter standards for:  Native Tokens NFTs Semi-fungible TokensThese can be modified at will. The value is in the design behind the standard. When your team is ready to mint assets, they don’t need to do any research. By following our standard, assets can be included in the Novellia Marketplace, provided in the Novellia Dashboard. This happens automatically. How do I see my blockchain assets?: The Novellia Dashboard exposes a read-only wallet interface which allows highly unique tokens such as NFTs to be displayed without a loss of information. For NFTs like trading cards, information such as artwork, skills, gameplay, won’t appear in any typical wallet. Our interface is extensible with plugins so anyone can get a first-class view of their holdings. Can I trade within the Novellia platform?: Yes. The Novellia Dashboard contains a decentralized marketplace that allows users to purchase new assets from conformant minting contracts, or trade those same assets on a resale market. Is this totally decentralized and non-custodial?: Yes. All data required for the dashboard’s functioning is enumerated from the Cardano blockchain. We are non-custodial. Connect your wallet using a plugin similar to MetaMask. Hardware Wallet / Software Wallet → Integration Layer → Accessed safely by game Why do we need a DAO? Why do projects need to voted on?: The DAO helps filter out low quality content (buggy, inappropriate, scams) without requiring a centralized authority. This means that content cannot be censored. What game engines are supported?: We’ll begin by implementing an engine agnostic set of tools, followed by specific integrations for whatever is most in demand. Why do I want my game to be on Novellia?: We provide a low-fee ecosystem to help you hit the ground running.  Marketplace     Very low fees. Avoid those +20% app store fees!   Earn commissions on resale markets for blockchain assets.     Open source software (for critical plugins. the dashboard will begin as closed-source)     Fix it yourself if you need it now.    Read the code and you can know there’s no backdoors.     Decentralization     Your game can’t be censored for being too scary or for arbitrary political reasons.     Identity     Users know they aren’t buying copy-cat blockchain assets because they’re purchasable directly within Novellia.    Are we a scam?: No. This is a scam Useless Ethereum Token. "
     }, {
-    "id": 20,
+    "id": 18,
     "url": "http://localhost:4000/game_design.html",
     "title": "Game Design",
     "body": "We present a high-level overview of Occulta Novellia.  The game takes place on a hex board, with maps that are not procedurally generated. The graphics depict these environments in full 3D. Dialogue sequences are presented as text with animated character sprites, similar to RPGs such as Fire Emblem. Multiplayer Battlegrounds  Prepare your team of tradable characters and get ready for a fierce fight on the battlegrounds against other players! Fight for glory in small or large battles ranging in size of up to 60+ characters at once! Weak alone, legendary together! Create a team of multiple squads, comprised of characters with different and adaptive play-styles for dynamic battles. Combat  Play smart to crush your opponents! Individual play-styles are highly punishable by coherent squads. That’s why teamwork is key! Squads function on shared time, not everyone can do everything! Watch your characters progress in battles! Use story cards to hone or pivot your characters’ play-style according to skills and events happening in the Occulta Novellia story-lines.  Character or battleground specific environmental effects have an important impact on winning! Battle occurs on hex tiles connected through interesting locations in Regalia. Placement and formations are critical! Keep it simple! Characters have sane value ranges in the low integers! Matches occur across multiple rounds. Make no sacrifices! Characters suffer permadeath, but survivors recover in-between rounds. Your NFTs are never lost, this only applies to the scope of individual matches or campaigns.  Retreat! Don’t forfeit all your characters in a tilted battle, withdraw to survive the next round! Characters sets are released periodically, adding new mechanics or breathing life into old ones!"
     }, {
-    "id": 21,
+    "id": 19,
     "url": "http://localhost:4000/garden_of_residues.html",
     "title": "Garden of Residues",
-    "body": ""
+    "body": "The Garden of Residues is the surreal manifestation of the set of all creative ideas bleeding into Aphantasia. The Brink Gate leads to it from the Atrium of Forms. The concept of sensation is fractured. Its inhabitants tell travelers to try not to hear the colors or taste the sounds because they will succeed and not return. The garden emanates a feeling, like a tint to reality, giving strength to those things with an affinity for madness. The inhabitants are afflicted with a kind of directed psychosis, ideas flowing in identifiable currents like wind, perfectly awake, but perhaps not the smartest. It is dim in lighting, but full of vibrant colors, laced with vines and flowers. A path built of a stone material seems immune to the overgrowth: the flora will not touch it or grow through it. Immaculate, like a freshly paved sidewalk, it carves a path to someplace deep within Aphantasia. A few holes exist around the walkway: shallow ponds. In their depths are huge things that cast black, dot-like shadows. Some smaller snakes swim near the surface, but attempts to dive reveal that the water has an impenetrable, glass-like floor just a few feet deep. It’s too shallow to swim along the bottom without drowning, as the different openings do not connect. The sparse inhabitants of the garden embody a drowsy head-space. They are relatively docile as a whole, unless aggravated. The selection of creatures is intended to provide some variety, especially in having at least one type per terrain format: water, land, flying. This provides a basis for testing some game mechanics. "
     }, {
-    "id": 22,
-    "url": "http://localhost:4000/grevania.html",
-    "title": "Grevania",
-    "body": ""
-    }, {
-    "id": 23,
+    "id": 20,
     "url": "http://localhost:4000/ico.html",
     "title": "Initial Coin Offering (ICO)",
     "body": "The initial coin offering for the Novellia (NVLA) governance token is offered through an initial, minimal implementation of the decentralized exchange. It can only be purchased with ADA, and is not available to US residents. "
     }, {
-    "id": 24,
+    "id": 21,
     "url": "http://localhost:4000/illegal_health_care.html",
     "title": "Phanamite Campaign - Illegal Health Care",
     "body": "A tale of two Phanamite engineers, both introduced to the wonders of automatons. Unknown to their superiors, these two have been abusing the university’s equipment to create experimental body modifications. Laurence, trained to be a duelist as a family tradition, has reached the peak of what his human body can achieve. Unable to operate, he has replaced some of his parts such that he can defeat his talented foes. Garret, ravaged by a flesh-eating virus as a child, is severely incapacitated. By some miracle, the neurological effects seem to have actually improved his cognition. Recognizing his limitations in controlling his self-modifications, Laurence realizes that he isn’t smart enough. He offers to work on Garret, teaching him to duel. No one would treat Garret before, for fear of killing him, incurring the wrath of the Phanamites’ laws regarding the preservation of life. Realizing how much he’s missed out on, Garret sends his human evolution farther than Laurence ever intended or thought was possible. “Laurence, put this into the servo. I’ve fixed the power issues. ” “I thought you said it was experimental?” “Do you want to win the duel or not?” Laurence applies the perpetual motor, sending sparks throughout Garret’s apparatus. “How do you feel?” “Well, I’m still not dead, not yet. ” “Shut. Up. Get out there, and win, come on man! If this thing works, you won’t have any power issues this time. ” Garret steps into the illegal arena, hoping to double his and Laurence’s money. The nervous implant whirrs. Garret is itchy all over as his nerves rejuvenate. The metallic coverings dig into the gaps in his flesh, sometimes hooking into the bone. He’ll have to fasten the attachments later. They’ll loosen during combat. He swings the sword attached to his right hand, allowing a computer to calibrate its weight model for it. By optimizing the expenditure of energy, Garret won’t ever need to decelerate, moving as fast as humanly possible. He amps his eyes until they feel like they’re on fire. Otherwise, he wouldn’t be able to react fast enough to his own bodily displacement. After the fight, he’ll have to put a covering on his eyes and shut them down so they can heal. "
     }, {
-    "id": 25,
+    "id": 22,
+    "url": "http://localhost:4000/illieander.html",
+    "title": "Illieander",
+    "body": "The Illieander is a six limbed, flying mantis creature. Its mandible pincers have an immense degree of strength. On its limbs and spine, poisonous barbs sprawl in intricate patterns. When fighting, it is bipedal, or leaps at its prey, gliding with its wings. Otherwise, it maintains a low profile, crawling through the tall grass of the Garden of Residues using all six limbs. Its skin is colorful, but toxic, like a dart frog. "
+    }, {
+    "id": 23,
     "url": "http://localhost:4000/index.html",
     "title": "",
     "body": "Welcome to our Wiki!: This is the one-stop shop for all the latest information about  The Novellia Platform The Occulta Novellia video gameWe’ll be updating our website as well, but a Wiki is the preferred format for a large quantity of information. For this reason, don’t be surprised if the website lags behind a bit: it needs to look pretty as well as be informative. White paper: Rektangular Studios’ initial design work began as a white paper compiled from LaTeX. We quickly realized that it was becoming too big to be maintainable, so we migrated it to a Wiki format. It’s much more manageable to read in this format. While it will no longer be maintained, you can still access the latest version of the white paper here. The content of this website may be considered offensive to some people. Reader discretion is advised. "
     }, {
+    "id": 24,
+    "url": "http://localhost:4000/iscara.html",
+    "title": "Iscara The Ten Thousand Guns",
+    "body": " The youngest of her friends, and also the only girl amongst them. Jackson used to bully her, but Thomas invited her to play tag with them on multiple occasions. Eventually, she became part of the group. Having protected her friends from the choice of conscription or execution, she has a reputation of knowing how to dish out some serious firepower. She often feels the need to scream, and shouts airlessly into the shivering Aphantasian airs. Maybe Ten Thousand Guns saw something in her, maybe that’s why it hasn’t killed her yet. She’s lying if she says she can control it. It owns her. –Jackson the Brainless Cards: Iscara the Ten Thousand Guns: Rumors say the leader of the Operator’s Guild is possessed by a demonic entity that lets her morph into monsters and spit in the face of death itself. The Grevans refuse to acknowledge her humanity, referring to her as Ten Thousand Guns. They hide their children at dawn, hoping that the pretty woman, usually seen in a dress, won’t take them. "
+    }, {
+    "id": 25,
+    "url": "http://localhost:4000/iskadiel.html",
+    "title": "Iskadiel",
+    "body": "Forged by a grueling training period in the Isles of Ixis, Iskadiel rose to the rank of crown operator. The instances of people meeting her are contradictory, as if she can be at multiple times and places at once, weaving her way through the Isles, breaking any semblance of a single, contiguous timeline. She travels alone because no one can follow where she goes. No one knows how long she’ll live, if she’s died before, or if the next operation will cause her to bleed out. A group of soldiers play a card game in a grungy pub. What’s her kill count? Higher than yours! You’d better shut-up or she’ll get you next! Don’t worry, I ain’t got an ounce of talent. "
+    }, {
     "id": 26,
-    "url": "http://localhost:4000/introduction.html",
-    "title": "Introduction",
-    "body": "We present the Novellia platform for developers to create decentralized multiverses encapsulating games, applications, stories, and artwork. A decentralized autonomous organization (DAO) determines consensus for the development of each multiverse. The surreal horror universe Occulta Novellia provides a proof of concept for demonstrating the platform’s capabilities. It includes a self-titled game Occulta Novellia with rich stories accompanied by tradable NFTs. A governance token Novellia (NVLA) is used to determine canon for each multiverse. This includes the addition of new games, applications, stories, and artwork. It is the base currency for trading assets within the platform. Assets minted on the platform must be paid for in NVLA, this includes NFTs, unlockable content, and costs to execute dApps. By providing our game Occulta Novellia, we test the necessary requirements for community tooling and SDKs such that the platform can generalize to a wide variety of functions. Upon the completion of Occulta Novellia, developers have the necessary tooling to extend the platform without our support. This includes open source software such as modding tools for our closed source game, and those for creating additional multiverses. The contents of this white paper are subject to change as Rektangular Studios deems necessary. It merely constitutes proof of a plan for execution. "
+    "url": "http://localhost:4000/jackson_the_brainless.html",
+    "title": "Jackson the Brainless",
+    "body": "Childhood friend of Iscara and Thomas. Thomas was always Iscara’s favorite, which made Jackson jealous, although happy for him. Killed by a bullet to the head, Jackson has none of his memories, despite being revived by Ten Thousand Guns. He enjoys the company of Iscara and Thomas who tell him stories of their childhoods. He finds it easy to alter his sense of self, his limited experience meaning little attachment to his human form. Jackson is able to shapeshift and teach other tainted within the Guild. Is that a sword sticking through my torso? Why didn’t anyone tell me? –Jackson the Brainless "
     }, {
     "id": 27,
-    "url": "http://localhost:4000/iscara.html",
-    "title": "Iscara",
-    "body": ""
+    "url": "http://localhost:4000/kingdom_of_grevania.html",
+    "title": "Kingdom of Grevania",
+    "body": "A highly militarized people who specialize in training operators who can bend reality for as long as their body can survive it. They seek to extend reality to the surreal and unknown, at any cost, with few moral concerns to stop them. Those who can operate are called talented. Those who can’t are called soldiers, or soon-to-be soldiers, also known as the conventional workforce. Ixis: The Grevan capitol. It occupies the fastest Isle in the Grevan continent. If I can’t achieve immortality, everyone will just have to die before me –King Grevan The Isles of Ixis: A network of spatially connected zones that have different speeds of time. They surround the capitol Ixis, making it next to impossible to assault. The stars are impossibly bright, a blend between the lake at the bottom of the hill, and a perspective beyond an open airlock. It’s the hazy version of something so much brighter, and totally unbreathable. Isles, so-called sections of space with varying speeds of time, are constantly changing their boundaries: sometimes to outer space. They surround the Grevan capitol, Ixis, making it nearly impossible to assault. I aim my laser at a tree near me, but it doesn’t appear. The tree must be long gone, ages passed in seconds with respect to my own position. Like the light of a long-gone star. No one has has ever survived crossing a zone line, or at least, returned to prove it. Raptor smirks. "
     }, {
     "id": 28,
-    "url": "http://localhost:4000/isles_of_ixis.html",
-    "title": "Isles of Ixis",
-    "body": ""
+    "url": "http://localhost:4000/kingdom_of_phanamis.html",
+    "title": "Kingdom of Phanamis",
+    "body": "The greatest engineers, known for medical miracles, deadly automatons, and having normalized high-tech body mods within their culture. They seek immortality, believing that every death is a significant, unique loss. Sojourney: The capital of Phanamis is afflicted by an incredible wealth divide. The rich replace their limbs as they age. The poor cannot eat. "
     }, {
     "id": 29,
     "url": "http://localhost:4000/kpi.html",
@@ -631,7 +789,7 @@ var documents = [{
     "id": 30,
     "url": "http://localhost:4000/laurence.html",
     "title": "Laurence",
-    "body": ""
+    "body": " Cards: Laurence the Duelist: Weaponized by the Master Engineer, he wields a mecha-blade in-place of where his right arm should be. They say the procedure is miserable, but Laurence has never felt serrated steel sawing through his flesh. No, Laurence has never lost a single duel. "
     }, {
     "id": 31,
     "url": "http://localhost:4000/marketing.html",
@@ -659,49 +817,49 @@ var documents = [{
     "body": " Occulta Novellia is a turn-based strategy game set in a surreal horror multiverse. Its combat style is inspired by XCOM, DOS, and Fire Emblem series. The game is a proof of concept for the Novellia platform. The game, along with its NFTs are story focused, with an emphasis on a lack of filler characters. Players have full ownership of game characters as NFTs in their Cardano wallets. One can play with them in single player and multiplayer modes, or trade them at a marketplace. The Occulta Novellia game is initially closed source. Multiplayer gameplay will eventually become open-sourced as it is decentralized. Single player will remain closed source. It is supported on the same platforms as the Novellia Dashboard: Linux, Mac, Windows. "
     }, {
     "id": 36,
-    "url": "http://localhost:4000/operator_fortress.html",
-    "title": "Operator's Fortress",
-    "body": ""
+    "url": "http://localhost:4000/operators_guild.html",
+    "title": "Operator's Guild",
+    "body": "Childhood friends who escaped the choice of conscription or euthanization by the Grevan military. Through a series of unfortunate events, many of them have gained the capacity to tame and shapeshift into mythical creatures. At the cost of much bloodshed, the Operator’s Guild maintains independence from the Grevan military machine. Rumors have it that their leader, a pretty woman usually seen in a dress, is possessed by a demonic entity that permits her to morph into monsters and spit in the face of death itself. The Grevans refuse to acknowledge her humanity, referring to her as Ten Thousand Guns. They hide their children at dawn, worrying that she’ll rapture them to the unlivable southern continent Aphantasia, where nothing grows, and the weather is unbearably cold. Blood still stains marble floors in the Atrium of Forms, a place where the skills of young would be operators are magnified, and are faced with the choice of conscription or euthanization. Thomas, her childhood friend, and could have been lover, lies crumpled on the hard floor. The crown operator Iskadiel, has just ordered the Grevan soldiers to shoot him. He refused to be conscripted. Citizens with the ability to operate are too dangerous not to be processed. Filled with rage, Iscara realizes she can feel the ancient atrium, as if the walls and statues of creatures extend the feeling of her skin. The mural on the southern wall glows as she subconsciously pries it open, permitting a black fog to enter. It takes my left arm, claiming it can give me the strength of Ten Thousand Guns in exchange for occupancy. I let it, I don’t know why. When the soldiers fill me with lead, the bullet holes don’t heal, but I get up. Nerves wrecked, feeling stuck, I don’t think I can feel my hands. A frenzied morale enters the Grevan gunmen, as if they’re fighting for the safety of their loved ones. As if I hold the keys to kill everything they love. The crown operator emits a haze to keep the black fog at bay. Her expression is painted with an empathetic worry, like a mother realizing her children are terminally infested with maggots. Tick. Tick. Tick. If it’s solid, someone is behind it with a rifle. The Atrium of Forms: The equator of Regalia is covered in ancient ruins, reflecting a capacity for creative thought that the northern kingdoms can only dream of. In the winter woods closest to the Brink, a ring around Regalia that separates the northern continent from the impassible Aphantasia, the atrium is used to bring out reality bending skills in young Grevans. When conscripted, these Grevans are trained to be operators, but often die in the process due to neurological overload. If you can taste the colors of the autumn leaves, it’s time to take a break. Operator’s Fortress: A gorgeous Victorian castle, situated on the largest of a cluster of islands just south of the Atrium of Forms. Arguably, it must have been there before the Guild arrived. If they know who inhabited it, they aren’t telling. The magnificent torches ignite its catwalks. They can be seen from the tallest structures of the atrium, or the nearby mountains. Prior to the Guild’s rebellion, no one knew the islands existed. A mysterious force must be powering the brilliant flames. "
     }, {
     "id": 37,
-    "url": "http://localhost:4000/operator_guild.html",
-    "title": "Operator's Guild",
-    "body": ""
-    }, {
-    "id": 38,
     "url": "http://localhost:4000/organization_token.html",
     "title": "Organization Token",
     "body": "The Organization Token will work as digitial verification and reputation for video game companies and developers to gain trust within the network. Learn more in the following infographic: "
     }, {
-    "id": 39,
+    "id": 38,
     "url": "http://localhost:4000/partnerships_and_research.html",
     "title": "Partnerships and Research",
     "body": "Want to collaborate with Rektangular Studios? Reach out on our public Discord! With tons of like-minded individuals building on Cardano, there’s bound to be overlap in areas of research! To kickstart this, we’ve created a public Trello board to keep track of research ventures! The results will go into the GitHub repository below. Checkout the Research GitHub organization!Join the Research Trello Board! "
     }, {
-    "id": 40,
-    "url": "http://localhost:4000/phanamis.html",
-    "title": "Phanamis",
-    "body": ""
-    }, {
-    "id": 41,
+    "id": 39,
     "url": "http://localhost:4000/plugins.html",
     "title": "Plugins",
     "body": "All items in the dashboard are plugins. The dashboard enumerates plugins from registrations made on the DAO. dApps may register an associated smart contract to the DAO with mutable information related to its appearing within the dashboard. This includes a few minimum requirements:  Website or Attribution Plugin Package URI The contract must include a Destroy() function that allows the author to revoke it if there are bugs, or they cannot wait for quorum to approve its removal. Updating the contract is not permitted through an Update() function. A vote is required, similar to an HFC event. This responsibility is delegated to the voting mechanism. The dashboard can download or update plugins via their registered plugin package URI. This allows users to interact easily with new functionality as it is released. "
     }, {
-    "id": 42,
+    "id": 40,
+    "url": "http://localhost:4000/raptor.html",
+    "title": "Raptor",
+    "body": "Raptor thought the Grevan artillery moved too slowly, so raptor stole a cannon off of one so he wouldn’t have to wait around for it. Basically the same thing, right? Armed with his prized IC-V, intercontinental cannon, mark V, he’ll either wipe out the opposition, or blow off his shoulder if he forgets to mount it on a hard surface. Conservation officers would panic watching him use trees in a forest for cover. He carries a bundle of zip ties and cuffs on his belt, but only because he’s legally required to. He won’t need a lawyer to use the machete hanging from his right-hip on a chain though. Prisoners? What Prisoners? "
+    }, {
+    "id": 41,
     "url": "http://localhost:4000/regalia.html",
     "title": "Regalia",
-    "body": ""
+    "body": " The Regalia pangaea is divided into two distinct hemispheres. The lower hemisphere Aphantasia is cursed and uninhabitable, reaching temperatures as low as -1000C. The upper hemisphere is rich of life, inhabited by two competing kingdoms: Grevania and Phanamis. Remnants of a mythological society litter Regalia, but they’ve all but vanished. Many of the structures make little architectural sense, and are impossible to traverse or enter. These ruins are concentrated at the equator of Regalia, forming a belt called the Brink. Which can be travelled only to a degree, as the temperatures becomes too cold during the approach of Aphantasia. The Atrium of Forms is a well-known ruin, which brings out latent talent in Regalians who can be trained to operate. Regalians who can operate are called talented. Typically, this is restricted to weaker physical effects and has serious neurological implications on operators. Those descended from Grevania may have talent, while the people of Phanamis instead rely on advanced engineering. Some say that the Brink resembles a wall, as if a massive battle occurred long ago. After an event at the Atrium of Forms, a girl has become possessed by a mysterious entity: Ten Thousand Guns. Time will tell what its true intentions are. She has disappeared through a mural in the atrium, leaving to a place rumored to resemble a massive garden. This should be impossible, as the mural leads directly to the wasteland Aphantasia. "
     }, {
-    "id": 43,
+    "id": 42,
     "url": "http://localhost:4000/regalia_overview.html",
     "title": "Regalia Overview",
     "body": "Theme: Occulta Novellia takes place in a surreal horror multiverse with each new set of collectibles being released to incorporate new short stories, building up the many facets of it. The first set of NFTs serves as an introduction to the Regalia pangaea, introducing some of its major factions. Storylines may be linear or choice-based. Collectibles are earned based on completion of the campaigns, or specific actions. This provides one mechanic to build a library of NFTs for multiplayer use. Stories are told in dialogue / battle / dialogue / … sequences similar to Fire Emblem. Regalia Overview: The Regalia pangaea is divided into two distinct hemispheres. The lower hemisphere Aphantasia is cursed and uninhabitable, reaching temperatures as low as -1000C. The upper hemisphere is rich of life, inhabited by two competing kingdoms: Grevania and Phanamis. Remnants of a mythological society litter Regalia, but they’ve all but vanished. Many of the structures make little architectural sense, and are impossible to traverse or enter. These ruins are concentrated at the equator of Regalia, forming a belt called the Brink. Which can be travelled only to a degree, as the temperatures becomes too cold during the approach of Aphantasia. The Atrium of Forms is a well-known ruin, which brings out latent talent in Regalians who can be trained to operate. Regalians who can operate are called talented. Typically, this is restricted to weaker physical effects and has serious neurological implications on operators. Those descended from Grevania may have talent, while the people of Phanamis instead rely on advanced engineering. Some say that the Brink resembles a wall, as if a massive battle occurred long ago. After an event at the Atrium of Forms, a girl has become possessed by a mysterious entity: Ten Thousand Guns. Time will tell what its true intentions are. She has disappeared through a mural in the atrium, leaving to a place rumored to resemble a massive garden. This should be impossible, as the mural leads directly to the wasteland Aphantasia. Campaigns: The Occulta Novellia singleplayer game focuses on immersive stories. These are the basis for the NFTs minted. To begin, there is one campaign for each major faction: Operator’s Guild, Phanamites, and Grevans. Each campaign is based on a Novella that is released chapter-by-chapter over a period of time. These are adapted to in-game dialogue sequences, playable areas, NFTs, and mechanics. Lookout for the newsletter to stay up-to date with story releases. "
     }, {
+    "id": 43,
+    "url": "http://localhost:4000/rotakin.html",
+    "title": "Rotakin",
+    "body": "A creature that resembles a floating, bright white orb, or just glows. They’re harmless in their infancy, but can grow to be the size of a bowling ball. Some comment that they resemble fireflies at birth, but floating lanterns near the end of their lives. "
+    }, {
     "id": 44,
     "url": "http://localhost:4000/search.json",
     "title": "search",
-    "body": "[ {“title”: “Abstract”,“tags”: “”,“keywords”: “”,“url”: “abstract. html”,“summary”: “”}, {“title”: “Advertising”,“tags”: “”,“keywords”: “”,“url”: “advertising. html”,“summary”: “”}, {“title”: “Alpha Draculi”,“tags”: “”,“keywords”: “Draculi”,“url”: “alpha_draculi. html”,“summary”: “”}, {“title”: “Aphantasia”,“tags”: “”,“keywords”: “Aphantasia”,“url”: “aphantasia. html”,“summary”: “”}, {“title”: “Asset List”,“tags”: “”,“keywords”: “Game”,“url”: “asset_list. html”,“summary”: “”}, {“title”: “Atrium of Forms”,“tags”: “”,“keywords”: “AtriumFormsGrevania”,“url”: “atrium_of_forms. html”,“summary”: “”}, {“title”: “Birds of Prey”,“tags”: “”,“keywords”: “Story”,“url”: “birds_of_prey. html”,“summary”: “”}, {“title”: “Spending”,“tags”: “”,“keywords”: “”,“url”: “budget. html”,“summary”: “”}, {“title”: “Cards”,“tags”: “”,“keywords”: “Game”,“url”: “cards. html”,“summary”: “”}, {“title”: “Client”,“tags”: “”,“keywords”: “Game”,“url”: “client. html”,“summary”: “”}, {“title”: “Conclusion”,“tags”: “”,“keywords”: “”,“url”: “conclusion. html”,“summary”: “”}, {“title”: “Decentralized Autonomous Organization (DAO)”,“tags”: “”,“keywords”: “DAO”,“url”: “dao. html”,“summary”: “”}, {“title”: “Novellia Dashboard”,“tags”: “”,“keywords”: “Dashboard”,“url”: “dashboard. html”,“summary”: “”}, {“title”: “Decentralized Model”,“tags”: “”,“keywords”: “Game”,“url”: “decentralized_model. html”,“summary”: “”}, {“title”: “Decentralized Exchange”,“tags”: “”,“keywords”: “DEX”,“url”: “decentralized_exchange. html”,“summary”: “”}, {“title”: “Decentralized Game Operation”,“tags”: “”,“keywords”: “DAO”,“url”: “decentralized_game_operation. html”,“summary”: “”}, {“title”: “Delivery”,“tags”: “”,“keywords”: “”,“url”: “delivery. html”,“summary”: “”}, {“title”: “Draculi”,“tags”: “”,“keywords”: “Draculi”,“url”: “draculi. html”,“summary”: “”}, {“title”: “FAQ”,“tags”: “”,“keywords”: “FAQ”,“url”: “faq. html”,“summary”: “”}, {“title”: “Game Design”,“tags”: “”,“keywords”: “Game”,“url”: “game_design. html”,“summary”: “”}, {“title”: “Garden of Residues”,“tags”: “”,“keywords”: “AphantasiaGarden of Residues”,“url”: “garden_of_residues. html”,“summary”: “”}, {“title”: “Grevania”,“tags”: “”,“keywords”: “Grevania”,“url”: “grevania. html”,“summary”: “”}, {“title”: “Initial Coin Offering (ICO)”,“tags”: “”,“keywords”: “DEX”,“url”: “ico. html”,“summary”: “”}, {“title”: “Phanamite Campaign - Illegal Health Care”,“tags”: “”,“keywords”: “Story”,“url”: “illegal_health_care. html”,“summary”: “”}, {“title”: “”,“tags”: “”,“keywords”: “Welcome”,“url”: “index. html”,“summary”: “”}, {“title”: “Introduction”,“tags”: “”,“keywords”: “”,“url”: “introduction. html”,“summary”: “”}, {“title”: “Iscara”,“tags”: “”,“keywords”: “Iscara”,“url”: “iscara. html”,“summary”: “”}, {“title”: “Isles of Ixis”,“tags”: “”,“keywords”: “IxisIslesGrevania”,“url”: “isles_of_ixis. html”,“summary”: “”}, {“title”: “Key Performance Indicatiors (KPIs)”,“tags”: “”,“keywords”: “”,“url”: “kpi. html”,“summary”: “”}, {“title”: “Laurence”,“tags”: “”,“keywords”: “Laurence”,“url”: “laurence. html”,“summary”: “”}, {“title”: “Marketing”,“tags”: “”,“keywords”: “”,“url”: “marketing. html”,“summary”: “”}, {“title”: “Minting NFT's”,“tags”: “”,“keywords”: “Dashboard”,“url”: “minting_nfts. html”,“summary”: “”}, {“title”: “Non-Fungible Tokens (NFT)”,“tags”: “”,“keywords”: “DAO”,“url”: “nft. html”,“summary”: “”}, {“title”: “Novellia (NVLA) Governance Token”,“tags”: “”,“keywords”: “DAO”,“url”: “novellia_token. html”,“summary”: “”}, {“title”: “Occulta Novellia”,“tags”: “”,“keywords”: “Game”,“url”: “occulta_novellia. html”,“summary”: “”}, {“title”: “Operator's Fortress”,“tags”: “”,“keywords”: “OperatorGuildOperator’s Fortress”,“url”: “operator_fortress. html”,“summary”: “”}, {“title”: “Operator's Guild”,“tags”: “”,“keywords”: “OperatorGuildOperator’s Guild”,“url”: “operator_guild. html”,“summary”: “”}, {“title”: “Organization Token”,“tags”: “”,“keywords”: “DAO”,“url”: “organization_token. html”,“summary”: “”}, {“title”: “Partnerships and Research”,“tags”: “”,“keywords”: “PartnershipsResearch”,“url”: “partnerships_and_research. html”,“summary”: “”}, {“title”: “Phanamis”,“tags”: “”,“keywords”: “Phanamis”,“url”: “phanamis. html”,“summary”: “”}, {“title”: “Plugins”,“tags”: “”,“keywords”: “Dashboard”,“url”: “plugins. html”,“summary”: “”}, {“title”: “Regalia”,“tags”: “”,“keywords”: “Regalia”,“url”: “regalia. html”,“summary”: “”}, {“title”: “Regalia Overview”,“tags”: “”,“keywords”: “Story”,“url”: “regalia_overview. html”,“summary”: “”}, {“title”: “Socials”,“tags”: “”,“keywords”: “”,“url”: “socials. html”,“summary”: “”}, {“title”: “Sojourney”,“tags”: “”,“keywords”: “SojourneyPhanamis”,“url”: “sojourney. html”,“summary”: “”}, {“title”: “System Monitoring”,“tags”: “”,“keywords”: “Monitoring”,“url”: “system_monitoring. html”,“summary”: “”}, {“title”: “Team”,“tags”: “”,“keywords”: “Team”,“url”: “team. html”,“summary”: “”}, {“title”: “Operator's Guild Campaign - Ten Thousand Guns”,“tags”: “”,“keywords”: “Story”,“url”: “ten_thousand_guns. html”,“summary”: “”}, {“title”: “Ten Thousand Guns: Slide Puzzle”,“tags”: “”,“keywords”: “StoryTen Thousand GunsSlide Puzzle”,“url”: “ten_thousand_guns_slide_puzzle. html”,“summary”: “”}, {“title”: “Ten Thousand Guns: The Operator’s Guild”,“tags”: “”,“keywords”: “StoryIscaraTen Thousand GunsOperator’s Guild”,“url”: “ten_thousand_guns_the_operators_guild. html”,“summary”: “”}, {“title”: “The Formless”,“tags”: “”,“keywords”: “Formless”,“url”: “the_formless. html”,“summary”: “”}, {“title”: “Title”,“tags”: “”,“keywords”: “”,“url”: “title. html”,“summary”: “”}, {“title”: “Value Proposition”,“tags”: “”,“keywords”: “DAO”,“url”: “value_proposition. html”,“summary”: “”}, {“title”: “Voting”,“tags”: “”,“keywords”: “DAO”,“url”: “voting. html”,“summary”: “”}, {“title”: “Welcome”,“tags”: “”,“keywords”: “Welcome”,“url”: “welcome. html”,“summary”: “”}, {“title”: “”,“tags”: “”,“keywords”: “”,“url”: “assetscssstyle. css”,“summary”: “”} ] "
+    "body": "[ {“title”: “Advertising”,“tags”: “”,“keywords”: “”,“url”: “advertising. html”,“summary”: “”}, {“title”: “Alpha Draculi”,“tags”: “”,“keywords”: “Garden of ResiduesDraculiAlpha DraculiCard”,“url”: “alpha_draculi. html”,“summary”: “”}, {“title”: “Arinspore”,“tags”: “”,“keywords”: “Garden of ResiduesArinspore”,“url”: “arinspore. html”,“summary”: “”}, {“title”: “Asset List”,“tags”: “”,“keywords”: “Game”,“url”: “asset_list. html”,“summary”: “”}, {“title”: “Birds of Prey”,“tags”: “”,“keywords”: “Story”,“url”: “birds_of_prey. html”,“summary”: “”}, {“title”: “Spending”,“tags”: “”,“keywords”: “”,“url”: “budget. html”,“summary”: “”}, {“title”: “Cards”,“tags”: “”,“keywords”: “Game”,“url”: “cards. html”,“summary”: “”}, {“title”: “Client”,“tags”: “”,“keywords”: “Game”,“url”: “client. html”,“summary”: “”}, {“title”: “Collectibles”,“tags”: “”,“keywords”: “CollectiblesCollectible”,“url”: “collectibles. html”,“summary”: “”}, {“title”: “Decentralized Autonomous Organization (DAO)”,“tags”: “”,“keywords”: “DAO”,“url”: “dao. html”,“summary”: “”}, {“title”: “Novellia Dashboard”,“tags”: “”,“keywords”: “Dashboard”,“url”: “dashboard. html”,“summary”: “”}, {“title”: “Decentralized Model”,“tags”: “”,“keywords”: “Game”,“url”: “decentralized_model. html”,“summary”: “”}, {“title”: “Decentralized Exchange”,“tags”: “”,“keywords”: “DEX”,“url”: “decentralized_exchange. html”,“summary”: “”}, {“title”: “Decentralized Game Operation”,“tags”: “”,“keywords”: “DAO”,“url”: “decentralized_game_operation. html”,“summary”: “”}, {“title”: “Draculi”,“tags”: “”,“keywords”: “Garden of ResiduesDraculiCard”,“url”: “draculi. html”,“summary”: “”}, {“title”: “Falcon”,“tags”: “”,“keywords”: “GrevaniaGrevanFalcon”,“url”: “falcon. html”,“summary”: “”}, {“title”: “FAQ”,“tags”: “”,“keywords”: “FAQ”,“url”: “faq. html”,“summary”: “”}, {“title”: “Game Design”,“tags”: “”,“keywords”: “Game”,“url”: “game_design. html”,“summary”: “”}, {“title”: “Garden of Residues”,“tags”: “”,“keywords”: “AphantasiaGarden of Residues”,“url”: “garden_of_residues. html”,“summary”: “”}, {“title”: “Initial Coin Offering (ICO)”,“tags”: “”,“keywords”: “DEX”,“url”: “ico. html”,“summary”: “”}, {“title”: “Phanamite Campaign - Illegal Health Care”,“tags”: “”,“keywords”: “Story”,“url”: “illegal_health_care. html”,“summary”: “”}, {“title”: “Illieander”,“tags”: “”,“keywords”: “Garden of ResiduesIllieander”,“url”: “illieander. html”,“summary”: “”}, {“title”: “”,“tags”: “”,“keywords”: “Welcome”,“url”: “index. html”,“summary”: “”}, {“title”: “Iscara The Ten Thousand Guns”,“tags”: “”,“keywords”: “Operator’s GuildOperatorIscaraCard”,“url”: “iscara. html”,“summary”: “”}, {“title”: “Iskadiel”,“tags”: “”,“keywords”: “GrevaniaGrevanIskadielOperator”,“url”: “iskadiel. html”,“summary”: “”}, {“title”: “Jackson the Brainless”,“tags”: “”,“keywords”: “Operator’s GuildOperatorJackson”,“url”: “jackson_the_brainless. html”,“summary”: “”}, {“title”: “Kingdom of Grevania”,“tags”: “”,“keywords”: “KingdomGrevania”,“url”: “kingdom_of_grevania. html”,“summary”: “”}, {“title”: “Kingdom of Phanamis”,“tags”: “”,“keywords”: “KingdomPhanamis”,“url”: “kingdom_of_phanamis. html”,“summary”: “”}, {“title”: “Key Performance Indicatiors (KPIs)”,“tags”: “”,“keywords”: “”,“url”: “kpi. html”,“summary”: “”}, {“title”: “Laurence”,“tags”: “”,“keywords”: “PhanamisPhanamiteLaurenceCard”,“url”: “laurence. html”,“summary”: “”}, {“title”: “Marketing”,“tags”: “”,“keywords”: “”,“url”: “marketing. html”,“summary”: “”}, {“title”: “Minting NFT's”,“tags”: “”,“keywords”: “Dashboard”,“url”: “minting_nfts. html”,“summary”: “”}, {“title”: “Non-Fungible Tokens (NFT)”,“tags”: “”,“keywords”: “DAO”,“url”: “nft. html”,“summary”: “”}, {“title”: “Novellia (NVLA) Governance Token”,“tags”: “”,“keywords”: “DAO”,“url”: “novellia_token. html”,“summary”: “”}, {“title”: “Occulta Novellia”,“tags”: “”,“keywords”: “Game”,“url”: “occulta_novellia. html”,“summary”: “”}, {“title”: “Operator's Guild”,“tags”: “”,“keywords”: “OperatorGuildOperator’s Guild”,“url”: “operators_guild. html”,“summary”: “”}, {“title”: “Organization Token”,“tags”: “”,“keywords”: “DAO”,“url”: “organization_token. html”,“summary”: “”}, {“title”: “Partnerships and Research”,“tags”: “”,“keywords”: “PartnershipsResearch”,“url”: “partnerships_and_research. html”,“summary”: “”}, {“title”: “Plugins”,“tags”: “”,“keywords”: “Dashboard”,“url”: “plugins. html”,“summary”: “”}, {“title”: “Raptor”,“tags”: “”,“keywords”: “GrevaniaGrevanRaptor”,“url”: “raptor. html”,“summary”: “”}, {“title”: “Regalia”,“tags”: “”,“keywords”: “Regalia”,“url”: “regalia. html”,“summary”: “”}, {“title”: “Regalia Overview”,“tags”: “”,“keywords”: “Story”,“url”: “regalia_overview. html”,“summary”: “”}, {“title”: “Rotakin”,“tags”: “”,“keywords”: “Garden of ResiduesRotakin”,“url”: “rotakin. html”,“summary”: “”}, {“title”: “Socials”,“tags”: “”,“keywords”: “”,“url”: “socials. html”,“summary”: “”}, {“title”: “System Monitoring”,“tags”: “”,“keywords”: “Monitoring”,“url”: “system_monitoring. html”,“summary”: “”}, {“title”: “Team”,“tags”: “”,“keywords”: “Team”,“url”: “team. html”,“summary”: “”}, {“title”: “Ten Thousand Guns”,“tags”: “”,“keywords”: “FormlessTen Thousand GunsOperator”,“url”: “ten_thousand_guns. html”,“summary”: “”}, {“title”: “Operator's Guild Campaign - Ten Thousand Guns”,“tags”: “”,“keywords”: “Story”,“url”: “ten_thousand_guns. html”,“summary”: “”}, {“title”: “Ten Thousand Guns: Slide Puzzle”,“tags”: “”,“keywords”: “StoryTen Thousand GunsSlide Puzzle”,“url”: “ten_thousand_guns_slide_puzzle. html”,“summary”: “”}, {“title”: “Ten Thousand Guns: The Operator’s Guild”,“tags”: “”,“keywords”: “StoryIscaraTen Thousand GunsOperator’s Guild”,“url”: “ten_thousand_guns_the_operators_guild. html”,“summary”: “”}, {“title”: “The Formless”,“tags”: “”,“keywords”: “Formless”,“url”: “the_formless. html”,“summary”: “”}, {“title”: “Thomas the Lich”,“tags”: “”,“keywords”: “Operator’s GuildOperatorThomas”,“url”: “thomas_the_lich. html”,“summary”: “”}, {“title”: “Value Proposition”,“tags”: “”,“keywords”: “DAO”,“url”: “value_proposition. html”,“summary”: “”}, {“title”: “Voting”,“tags”: “”,“keywords”: “DAO”,“url”: “voting. html”,“summary”: “”}, {“title”: “Voyin”,“tags”: “”,“keywords”: “Garden of ResiduesVoyin”,“url”: “voyin. html”,“summary”: “”}, {“title”: “Welcome”,“tags”: “”,“keywords”: “Welcome”,“url”: “welcome. html”,“summary”: “”}, {“title”: “Zragnirr”,“tags”: “”,“keywords”: “Garden of ResiduesZragnirrCard”,“url”: “zragnirr. html”,“summary”: “”}, {“title”: “”,“tags”: “”,“keywords”: “”,“url”: “assetscssstyle. css”,“summary”: “”} ] "
     }, {
     "id": 45,
     "url": "http://localhost:4000/socials.html",
@@ -709,19 +867,19 @@ var documents = [{
     "body": "Follow our Development!:  — Rektangular Studios Website  — Novellia Platform Reddit  — Occulta Novellia Reddit  — Github  — Twitter  — Ideascale Proposal  — Novellia Platform Public Discord  — Catalyst Discord Channel for Novellia"
     }, {
     "id": 46,
-    "url": "http://localhost:4000/sojourney.html",
-    "title": "Sojourney",
-    "body": ""
-    }, {
-    "id": 47,
     "url": "http://localhost:4000/system_monitoring.html",
     "title": "System Monitoring",
     "body": "At Rektangular Studios, we don’t make assumptions about our infrastructure. Extensive monitoring is configured for the Novellia Dashboard and NFT Stake Pool. This is facilitated through Grafana. Check it out! "
     }, {
-    "id": 48,
+    "id": 47,
     "url": "http://localhost:4000/team.html",
     "title": "Team",
     "body": "The team at Rektangular Studios is highly motivated. If you ask them, they’re totally not addicted to their current project. Together, they’ve got a combined 20+ years of software development, including areas of expertise such as  machine learning full-stack blockchain networking game developmentEyes set to the highest heights, prepare for the Novellia platform: more than just a marketplace for the creation of gaming ecosystems on Cardano. Ready to churn out the darkest, most creative strategy game to kickstart the platform, Occulta Novellia is going to scare everyone. Except investors of course. Hailing internationally, the team is what’s left of a previous project that didn’t achieve liftoff because of creative differences. The remainder is an alarmingly strong focus and creative cohesion right from the start. We literally can’t stop having fun. Laughter will propel the project from start to finish! Meet the team!: Cryptic_K  Product Manager Website Marketingcrypthonics  Developer Game design UI/UXwValthar  Developer Business Legaldancing7-cube  Developer Infrastructure Specialized in machine learning WriterThis Draculi variant was too hilarious not to show! "
+    }, {
+    "id": 48,
+    "url": "http://localhost:4000/ten_thousand_guns.html",
+    "title": "Ten Thousand Guns",
+    "body": "Rumor has it that a war occurred. So many guns, so many lives. So much that something took an interest. It became aware of the scene so vividly that it became it. As if the swarm of bullets and steel barrels had become its limbs: something that consciousness could grip as a body. The Orbit of Lives: Let G be a group. We refer to the orbit of an element of G as those which can be reached by applying the group operator. I’m thinking of you, the perspectives through time, of love and hate. I’m trying to find the center. A place without my own perspective, only you, what I’m looking at. The raw entity without the blur of my own emotion and sensation. The form at the center. Prettier than she looks, it’s always a function of me: the eye of the beholder. I want to see what you look like, without me. Without anyone. It doesn’t exist. The experience of yourself: is that the center? I want to be you. To devour the possibilities. Find the most creative timeline. Only you can remove me, from this. Reality? That’s why, Iscara, I grant you Ten Thousand Guns. "
     }, {
     "id": 49,
     "url": "http://localhost:4000/ten_thousand_guns.html",
@@ -741,12 +899,12 @@ var documents = [{
     "id": 52,
     "url": "http://localhost:4000/the_formless.html",
     "title": "The Formless",
-    "body": ""
+    "body": "A horrific force has passed over Aphantasia. Some think the Brink is not the leftover art of a fallen society, but the remainder of a massive fight for continued existence. The ruins line the entire equator, like a wall designed to keep something out. There may be beings who lack any form for themselves. What if their creativity wanted to expand, but the vessels just didn’t want to? The Cascade: Some take Ten Thousand Guns literally. Given its violent nature, if their lives were snuffed out, it mustn’t have been peaceful. Surely the land would be cursed. "
     }, {
     "id": 53,
-    "url": "http://localhost:4000/title.html",
-    "title": "Title",
-    "body": " Title: Novellia PlatformAuthor: Rektangular Studios Document order from whitepaper intro/abstract. texintro/introduction. texintro/delivery. tex dashboard/dashboard. texdashboard/plugins. texdashboard/minting_nfts. tex dao/dao. texdao/nft. texdao/novellia_token. texdao/voting. texdao/decentralized_game_operation. texdao/value_proposition. tex occulta_novellia/occulta_novellia. texocculta_novellia/decentralization_model. texocculta_novellia/asset_list. texocculta_novellia/cards. texocculta_novellia/client. texocculta_novellia/game_design. tex story/story. texstory/theme. texstory/regalia_overview. tex campaigns/campaigns. texcampaigns/ten_thousand_guns. texcampaigns/birds_of_prey. texcampaigns/illegal_health_care. tex decentralized_exchange/decentralized_exchange. texdecentralized_exchange/ico. tex marketing/marketing. texmarketing/advertising. texmarketing/kpi. tex team/team. tex conclusion/conclusion. tex socials/socials. tex "
+    "url": "http://localhost:4000/thomas_the_lich.html",
+    "title": "Thomas the Lich",
+    "body": "Thomas is Iscara’s best friend. Iscara sacrificed everything to resurrect him at the Atrium of Forms, submitting to Ten Thousand Guns to heal him. It is likely that her family was dealt with in response to her actions. Trusting him above anyone else, Iscara made Thomas her right-hand, or second in command of the Operator’s Guild. Having spent too long across the threshold of death, he has a knack for conjuration. She’s prettier than she looks –Jackson the Brainless "
     }, {
     "id": 54,
     "url": "http://localhost:4000/tooltips.html",
@@ -769,9 +927,19 @@ var documents = [{
     "body": " Token holders are able to vote for DAO actions that affect a multiverse they have played before, as documented by NFTs held in their wallet. These actions include adding new games and dApps to specific multiverses which are then surfaced in the Dashboard desktop application. There are actions to add and remove the multiverses themselves. Voting is a function of actively participating Novellia (NVLA) holders and the token’s total supply. We do not introduce the use of NFTs or additional assets. These may not have a finite supply or may be subject to centralized authorities. All voting parameters can be changed by a vote. Voting parameters  Percentage quorum of Novellia (NVLA) tokens with respect to total supply. E. g. 20% Probation period to have a reduced reversal quorum requirement. This is a factor multiplied against the other quorum parameters. E. g. 0. 625 * 80% = 50%. A majority vote is not actually 50% of the total supply. The percent of tokens actively used for voting may be much lower. Token holders must set initial parameters by voting until they arerepresentative of the circulating supply. There would be a transitional period where only voting parameters could be voted on, prior to allowing proposals for other DAO actions. The initial quorum would be set extremely low such that the voting parameters would be set to slightly less than the percent of active voters. The voting quorum is designed to disincentivize low quality content from being registered. Token holders are rewarded in Novellia (NVLA) for voting. The proposal maker incentivizes people to actively vote for or against them in order to receive rewards that they supply as a cost for creating the proposal. To prevent setting the quorum parameter to a malicious value, it is illegal to set it beyond an interval derived as a function of the percent of active voters. Such as proposal would automatically be rejected. Here we have presented a minimal concept for a voting implementation. The full system is likely to be more complicated and must undergo extensive testing and pass an audit. "
     }, {
     "id": 58,
+    "url": "http://localhost:4000/voyin.html",
+    "title": "Voyin",
+    "body": "Slow to motivate, the Voyin glide aimlessly. Despite this, they feast on the Draculi, smarted by the hunger that comes from random proximity and a strong sense of smell. "
+    }, {
+    "id": 59,
     "url": "http://localhost:4000/welcome.html",
     "title": "Welcome",
     "body": "Welcome to our Wiki!: This is the one-stop shop for all the latest information about  The Novellia Platform The Occulta Novellia video gameWe’ll be updating our website as well, but a Wiki is the preferred format for a large quantity of information. For this reason, don’t be surprised if the website lags behind a bit: it needs to look pretty as well as be informative. White paper: Rektangular Studios’ initial design work began as a white paper compiled from LaTeX. We quickly realized that it was becoming too big to be maintainable, so we migrated it to a Wiki format. It’s much more manageable to read in this format. While it will no longer be maintained, you can still access the latest version of the white paper here. "
+    }, {
+    "id": 60,
+    "url": "http://localhost:4000/zragnirr.html",
+    "title": "Zragnirr",
+    "body": "The Zragnirr are fierce Water serpents. Within the deep waters of the Garden of Residues, they are the Draculi’s primary adversary. "
     }, ];
 
 var idx = lunr(function () {
@@ -878,14 +1046,14 @@ select:-webkit-autofill:focus {
 
 <!--comment out this block if you want to hide search-->
 
-            </div>
+                </div>
+                
             
-        
-
-        <!-- Content Column -->
-        <div class="col-md-9" id="tg-sb-content">
-            <div class = paragraph-formating>
-                <div class="post-header">
+    
+            <!-- Content Column -->
+            <div class="col-md-9" id="tg-sb-content">
+                <div class = paragraph-formating>
+                    <div class="post-header">
    <h1 class="post-title-main">Value Proposition</h1>
 </div>
 
@@ -986,18 +1154,48 @@ $('#toc').on('click', 'a', function() {
 </footer>
 
 
-            </div>    
+                </div>    
+            </div>
+        <!-- /.row -->
         </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
-</div>
-<!-- /#main -->
+    <!-- /.container -->
+        </div>
     </div>
+    <!-- /#main -->
+    </div>
+
 </body>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<script>
+    // Image pool to select from
+    var str = '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png';
+    var images = str.split(',');
+    // Pick a random image
+    var maxImages = images.length;
+    var rand = Math.floor(Math.random() * maxImages);
+    var image = images[rand];
 
-<!-- the google_analytics_id gets auto inserted from the config file -->
+</script>
+
+<script>
+var update = {
+"background-color":"rgba(255,255,255,1)",
+"background":"-o-linear-gradient(top, rgba(205,211,194,0.5), rgba(255,255,255,0)),url("+image+") no-repeat",
+"background":"linear-gradient(to bottom, rgba(205,211,194,0.5), rgba(255,255,255,0)),url("+image+") no-repeat)",
+"background":"-webkit-gradient(linear, left top, left bottom, from(rgba(205,211,194,0.5)), to(rgba(255,255,255,1))),url("+image+") no-repeat",
+"height":"100%",
+"widght":"100%",
+}
+
+$('#myelement').css(
+update
+);
+</script>
+
+
+
+    <!-- the google_analytics_id gets auto inserted from the config file -->
 
 
 
@@ -1005,3 +1203,5 @@ $('#toc').on('click', 'a', function() {
 
 
 </html>
+
+

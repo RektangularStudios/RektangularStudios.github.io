@@ -7,6 +7,7 @@ sidebar: mydoc_sidebar
 permalink: advertising.html
 folder: white_paper/marketing
 toc: false
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 We advertise using the following methods targeting: US, China, Japanese, and African countries. 

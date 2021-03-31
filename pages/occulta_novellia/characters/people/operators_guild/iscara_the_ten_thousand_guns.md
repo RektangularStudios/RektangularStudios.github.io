@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: iscara.html
 folder: occulta_novellia/characters/people/operators_guild
+list_images: '/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png'
 ---
 
 ![Iscara the Ten Thousand Guns](/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png){:loading="lazy"}

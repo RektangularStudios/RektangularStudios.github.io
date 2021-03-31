@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: kingdom_of_grevania.html
 folder: occulta_novellia/factions
+list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
 ---
 
 A highly militarized people who specialize in training operators who can bend reality for as long as their body can survive it. They seek to extend reality to the surreal and unknown, at any cost, with few moral concerns to stop them.
