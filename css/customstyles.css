@@ -387,6 +387,7 @@ background-color: #91a276 !important;
 
 ul#mysidebar {
     border-radius:0px;
+    margin-top:2em;
 }
 
 .nav ul li ul li a {
@@ -722,6 +723,7 @@ ol.series li {
 
 #mysidebar .nav ul {
     background-color: #FAFAFA;
+    margin-top:2em;
 }
 .nav ul.series li {
     list-style: decimal;
@@ -863,13 +865,15 @@ span.soft {
 @media (max-width: 990px) {
     #mysidebar {
         position: relative;
+        margin-top:2em;
     }
 }
 
 @media (min-width: 1000px) {
 
     ul#mysidebar {
-        width: 225px;
+        width: 220px;
+        margin-top:2em;
     }
 }
 
@@ -1086,7 +1090,7 @@ h2.userMapTitle {
     text-decoration: none;
   }
 
-div.ar
+div.ar{
     max-width: 50px;
     margin-left: 15px;
     margin-right: 15px;
@@ -1214,7 +1218,7 @@ h4.panel-title {
     line-height: 1.5em;
 }
 
-.left-right-margin-15-px{
-    margin-left: 15px !important;
-    margin-right: 15px !important;
+.left-right-margin{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
 }
