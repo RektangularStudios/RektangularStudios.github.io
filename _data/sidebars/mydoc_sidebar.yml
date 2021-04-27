@@ -39,6 +39,10 @@ entries:
       url: /socials.html
       output: web, pdf
 
+    - title: Novellia Token Standard
+      url: /novellia_token_standard.html
+      output: web, pdf
+
   - title: Novellia Dashboard
     output: web, pdf
     folderitems:
