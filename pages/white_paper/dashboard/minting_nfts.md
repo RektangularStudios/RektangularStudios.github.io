@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: minting_nfts.html
 folder: white_paper/dashboard
-list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 There is a standard contract for designing NFT assets, specifically for Occulta Novellia. Other dApps may implement their own standard, or copy ours.

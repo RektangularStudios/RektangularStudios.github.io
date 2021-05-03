@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: illegal_health_care.html
 folder: occulta_novellia/campaigns
-list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 A tale of two Phanamite engineers, both introduced to the wonders of automatons. Unknown to their superiors, these two have been abusing the university's equipment to create experimental body modifications. 

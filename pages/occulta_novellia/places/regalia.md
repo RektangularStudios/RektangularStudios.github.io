@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: regalia.html
 folder: occulta_novellia/places
-list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 ![Map of Regalia](/images/regalia_map.png "Map of Regalia"){:loading="lazy"}

@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: decentralized_exchange.html
 folder: white_paper/decentralized_exchange
-list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 NFTs can be traded peer-to-peer or through a decentralized exchange provided inside the dashboard. The DEX sorts NFTs by games relevant to you, and allows you to see the complete set of NFTs across all multiverses.

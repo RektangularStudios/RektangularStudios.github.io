@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: garden_of_residues.html
 folder: occulta_novellia/places
-list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 The Garden of Residues is the surreal manifestation of the set of all creative ideas bleeding into Aphantasia. The Brink Gate leads to it from the Atrium of Forms. The concept of sensation is fractured. Its inhabitants tell travelers to try not to hear the colors or taste the sounds because they will succeed and not return.

@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: cards.html
 folder: white_paper/occulta_novellia
-list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 ![Draculi Card](/assets/images/draculi_card.jpg "The Draculi are fast serpents with human-like jaws. So-named for their resemblance to vampires, their human teeth have fangs to suck blood. They prefer to live in water, leaving it with a red tint. It is not known where they go, deep within the Garden of Residues' waters."){:loading="lazy"}

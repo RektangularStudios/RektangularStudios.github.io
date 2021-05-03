@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: ten_thousand_guns.html
 folder: occulta_novellia/characters/people/the_formless
-list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 Rumor has it that a war occurred. So many guns, so many lives. So much that something took an interest. It became aware of the scene so vividly that it became it. As if the swarm of bullets and steel barrels had become its limbs: something that consciousness could grip as a body.

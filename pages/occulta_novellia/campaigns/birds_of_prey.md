@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: birds_of_prey.html
 folder: occulta_novellia/campaigns
-list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 The stars are impossibly bright, a blend between the lake at the bottom of the hill, and a perspective beyond an open airlock. It's the hazy version of something so much brighter, and totally unbreathable.

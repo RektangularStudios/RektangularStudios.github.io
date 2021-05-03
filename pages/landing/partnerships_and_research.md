@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: partnerships_and_research.html
 folder: landing
-list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 Want to collaborate with Rektangular Studios? Reach out on our public Discord! With tons of like-minded individuals building on Cardano, there's bound to be overlap in areas of research!

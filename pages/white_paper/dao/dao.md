@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: dao.html
 folder: white_paper/dao
-list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 The Novellia platform exposes a set of distinct contract whitelists for each multiverse. These whitelists enumerate the content authorized to interact with dApps related to its respective multiverse. This is an opt-in policy for dApps, but conformance to an API is necessary for autonomous extension and approval of community content.

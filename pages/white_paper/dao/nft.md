@@ -6,7 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: nft.html
 folder: white_paper/dao
-list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.png,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.png,/assets/images/illustrations/alpha_draculi_1080.png'
+list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 Games reaching the end of their life cycle result in services being shut down: servers, multiplayer, paid for assets, community content. NFTs solve this problem by giving permanent, permissionless ownership of in-game assets.
