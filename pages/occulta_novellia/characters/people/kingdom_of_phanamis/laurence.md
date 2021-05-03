@@ -6,10 +6,10 @@ summary:
 sidebar: mydoc_sidebar
 permalink: laurence.html
 folder: occulta_novellia/characters/people/kingdom_of_phanamis
-list_images: '/assets/images/illustrations/laurence_the_duelist_1080.png'
+list_images: '/assets/images/illustrations/laurence_the_duelist_1080.jpg'
 ---
 
-![Laurence the Duelist](/assets/images/illustrations/laurence_the_duelist_1080.png){:loading="lazy"}
+![Laurence the Duelist](/assets/images/illustrations/laurence_the_duelist_1080.jpg){:loading="lazy"}
 
 ## Cards
 
