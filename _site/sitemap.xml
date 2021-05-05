@@ -250,6 +250,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/privacy_policy.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/raptor.html</loc>
   </url>
   

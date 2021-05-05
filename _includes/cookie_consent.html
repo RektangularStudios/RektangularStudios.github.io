@@ -1,0 +1,61 @@
+<!--
+Adapted from: https://github.com/jhvanderschee/jekyllcodex
+
+MIT License
+
+Copyright (c) 2020 Usecue BV
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+
+
+<style>
+  .cookie-button {background:#cdd3c2; color: black; z-index: 5;}
+  #cookie-notice {padding: 0.5rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: black; color: white; z-index: 5;}
+  #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+  @media (max-width: 767px) {
+      #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
+      #cookie-notice a {position: relative; bottom: 4px;}
+  }
+</style>
+<div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm cookie-button" >Approve</a><a href="/privacy_policy.html" class="btn btn-primary btn-sm cookie-button">More info</a></div>
+<script>
+  function createCookie(name,value,days) {
+      var expires = "";
+      if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days*24*60*60*1000));
+          expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + value + expires + "; path=/";
+  }
+  function readCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      }
+      return null;
+  }
+  function eraseCookie(name) {
+      createCookie(name,"",-1);
+  }
+
+  if(readCookie('cookie-notice-dismissed')=='true') {
+      {% include plausible.js %}
+  } else {
+      document.getElementById('cookie-notice').style.display = 'block';
+  }
+  document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+      createCookie('cookie-notice-dismissed','true',31);
+      document.getElementById('cookie-notice').style.display = 'none';
+      location.reload();
+  });
+
+</script>
