@@ -10,6 +10,7 @@ list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illus
 ---
 
 ![Draculi Card](/assets/images/draculi_card.jpg "The Draculi are fast serpents with human-like jaws. So-named for their resemblance to vampires, their human teeth have fangs to suck blood. They prefer to live in water, leaving it with a red tint. It is not known where they go, deep within the Garden of Residues' waters."){:loading="lazy"}
+*Collectible Draculi Card*
 
 ## Stages
 

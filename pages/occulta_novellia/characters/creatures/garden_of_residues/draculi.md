@@ -10,7 +10,7 @@ list_images: '/assets/images/illustrations/draculi_1080.jpg'
 ---
 
 ![Draculi](/assets/images/illustrations/draculi_1080.jpg){:loading="lazy"}
-
+*Draculi*
 ## Cards
 
 ### Draculi

@@ -11,8 +11,10 @@ list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illus
 We present a high-level overview of Occulta Novellia.
 
 ![Draculi Render](/assets/images/draculi_render.png "Pre-alpha footage showing Draculi model."){:loading="lazy"}
+*Pre-alpha footage showing Draculi model*
 
 ![Draculi on Hex Board](/assets/images/hex_board.png "Pre-alpha footage showing Draculi selected to move or attack nearby hex tiles."){:loading="lazy"}
+*Pre-alpha footage showing Draculi selected to move or attack nearby hex tiles.*
 
 The game takes place on a hex board, with maps that are not procedurally generated. The graphics depict these environments in full 3D.
 

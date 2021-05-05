@@ -21,6 +21,7 @@ Stories are told in dialogue / battle / dialogue / ... sequences similar to Fire
 ## Regalia Overview
 
 ![Map of Regalia](/assets/images/regalia_map.png "Map of Regalia"){:loading="lazy"}
+*Map of Regalia*
 
 The Regalia pangaea is divided into two distinct hemispheres. The lower hemisphere Aphantasia is cursed and uninhabitable, reaching temperatures as low as -1000C. The upper hemisphere is rich of life, inhabited by two competing kingdoms: Grevania and Phanamis.
 

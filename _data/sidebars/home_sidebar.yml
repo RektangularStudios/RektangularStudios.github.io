@@ -198,7 +198,7 @@ entries:
       url: /laurence.html
       output: web, pdf 
 
-    - title: Iscara the Ten Thousand Guns
+    - title: Iscara
       url: /iscara.html
       output: web, pdf
 
@@ -234,7 +234,7 @@ entries:
       url: /the_formless.html
       output: web, pdf
       
-    - title: Gaden of Residues
+    - title: Garden of Residues
       url: /garden_of_residues.html
       output: web, pdf  
 
