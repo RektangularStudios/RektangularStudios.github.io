@@ -10,6 +10,7 @@ list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illu
 ---
 
 ![Iscara the Ten Thousand Guns](/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg){:loading="lazy"}
+*Iscara the Ten Thousand Guns*
 
 ## Chapter 1
 

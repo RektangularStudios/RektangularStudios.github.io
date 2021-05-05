@@ -1,5 +1,5 @@
 ---
-title: Iscara The Ten Thousand Guns
+title: Iscara
 keywords: [Operator's Guild, Operator, Iscara, Card]
 last_updated: March 18, 2021
 summary: 
@@ -10,6 +10,7 @@ list_images: '/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg
 ---
 
 ![Iscara the Ten Thousand Guns](/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg){:loading="lazy"}
+*Iscara the Ten Thousand Guns*
 
 The youngest of her friends, and also the only girl amongst them. Jackson used to bully her, but Thomas invited her to play tag with them on multiple occasions. Eventually, she became part of the group.
 

@@ -13,6 +13,7 @@ list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illus
 We plan to use the Cardano Funding in the following catagories:
 
 ![Budget](/assets/images/budget.png){:loading="lazy"}
+*Budget*
 
 - 2D Artwork: $12000
     - Sprites

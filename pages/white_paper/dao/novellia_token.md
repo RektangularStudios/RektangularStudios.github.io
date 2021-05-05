@@ -10,6 +10,7 @@ list_images: '/assets/images/illustrations/draculi_1080.jpg,/assets/images/illus
 ---
 
 ![Token Distribution](/assets/images/token_distribution.png "Token Distribution"){:loading="lazy"}
+*Token Distribution*
 
 The Novellia (NVLA) governance token is used to approve DAO actions such as adding and removing registrations. It is also the currency used to purchase Occulta Novellia in-game assets.
 

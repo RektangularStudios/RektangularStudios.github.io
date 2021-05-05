@@ -10,6 +10,7 @@ list_images: '/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
 ![Alpha Draculi](/assets/images/illustrations/alpha_draculi_1080.jpg){:loading="lazy"}
+*Alpha Draculi*
 
 ## Cards
 

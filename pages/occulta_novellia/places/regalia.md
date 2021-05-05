@@ -9,7 +9,8 @@ folder: occulta_novellia/places
 list_images: '/assets/images/illustrations/draculi_1080.jpg, /assets/images/illustrations/laurence_the_duelist_1080.jpg,/assets/images/illustrations/iscara_the_ten_thousand_guns_1080.jpg,/assets/images/illustrations/alpha_draculi_1080.jpg'
 ---
 
-![Map of Regalia](/images/regalia_map.png "Map of Regalia"){:loading="lazy"}
+![Map of Regalia](/assets/images/regalia_map.png "Map of Regalia"){:loading="lazy"}
+*Map of Regalia*
 
 The Regalia pangaea is divided into two distinct hemispheres. The lower hemisphere Aphantasia is cursed and uninhabitable, reaching temperatures as low as -1000C. The upper hemisphere is rich of life, inhabited by two competing kingdoms: Grevania and Phanamis.
 

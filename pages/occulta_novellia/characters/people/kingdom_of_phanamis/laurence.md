@@ -10,6 +10,7 @@ list_images: '/assets/images/illustrations/laurence_the_duelist_1080.jpg'
 ---
 
 ![Laurence the Duelist](/assets/images/illustrations/laurence_the_duelist_1080.jpg){:loading="lazy"}
+*Laurence the Duelist*
 
 ## Cards
 
